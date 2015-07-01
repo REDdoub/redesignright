@@ -1,0 +1,12 @@
+User-Agent: *
+Disallow: 
+Allow: /css
+Allow: /classes
+Allow: /controller
+Allow: /docs
+Allow: /fonts
+Allow: /images
+Allow: /js
+Allow: /layout
+Allow: /mags
+Allow: /model

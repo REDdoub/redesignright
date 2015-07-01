@@ -1,0 +1,195 @@
+<?php
+include $pathToRoot . "classes/mailchimp.php";
+$modal = "";
+if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) && !isset($_POST['fname']) && $_POST['mode'] == 'footer'){
+    $modal = '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button><h4 class="modal-title" id="myModalLabel">Sign Up Request</h4></div><div class="modal-body"><form method="post" action=""><table><tr><td>First Name:</td><td><input type="text" class="form-control" name="fname"></td></tr><tr><td>Last Name: </td><td><input type="text" name="lname" class="form-control"></td></tr></table><button class="btn btn-default">Submit</button><input type="hidden" name="email" value="' . $_POST['email'] . '"></form></div></div></div></div><script type="text/javascript">$(window).load(function(){$("#myModal").modal("show");});</script>';
+}
+    if(isset($_POST['email']) && isset($_POST['lname']) && isset($_POST['fname'])){
+        $MailChimp = new MailChimp('ca264afb069101d37691072be81e4ebd-us8');
+        $result = $MailChimp->call('lists/subscribe', array(
+                        'id'                => 'd08b3e2e69',
+                        'email'             => array('email'=>$_POST['email']),
+                        'merge_vars'        => array('FNAME'=>$_POST['fname'], 'LNAME'=>$_POST['lname']),
+                    ));
+        if(!isset($result['email'])){
+            $modal = '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button><h4 class="modal-title" id="myModalLabel">Sign Up Request</h4></div><div class="modal-body">Oops! Something went wrong!<br/> Here\'s why: ' . $result['error'] . '</div></div></div></div><script type="text/javascript">$(window).load(function(){$("#myModal").modal("show");});</script>';
+        }else{
+            $modal = '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button><h4 class="modal-title" id="myModalLabel">Sign Up Request</h4></div><div class="modal-body">Thank you for signing up for our decorating tips!</div></div></div></div><script type="text/javascript">$(window).load(function(){$("#myModal").modal("show");});</script>';
+        }
+    }
+?>
+<html>
+    <head>
+        <title><?php echo $title; ?></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta property="og:title" content="">
+        <meta property="og:site_name" content="">
+        <meta property="og:url" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        <meta name="description" content=''>
+        <link rel="stylesheet" type="text/css" href="<?php echo $pathToRoot; ?>css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo $pathToRoot; ?>css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo $pathToRoot; ?>css/jquery-ui.min.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo $pathToRoot; ?>css/jquery-ui.structure.min.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo $pathToRoot; ?>css/jquery-ui.theme.min.css">
+        <link rel="shortcut icon" href="">
+        <script src="<?php echo $pathToRoot; ?>js/jquery-1.11.1.min.js"></script>
+        <script src="<?php echo $pathToRoot; ?>js/bootstrap.min.js"></script>
+        <script src="<?php echo $pathToRoot; ?>js/jquery.lazyload.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="<?php echo $pathToRoot; ?>css/style.css">
+        <link rel="shortcut icon" href="<?php echo $pathToRoot; ?>images/favicon.ico">
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+    </head>
+    <body>
+        <div class='container'>
+            <?php echo $modal; ?>
+            <div class="row headlineImage hidden-xs vertical-align">
+                    <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
+                        <a href="<?php echo $pathToRoot;?>index.php"><img class="img-responsive headlineImage" src="<?php echo $pathToRoot;?>images/logo.png"></a>
+                    </div>
+                    <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                        <a href="<?php echo $pathToRoot;?>index.php"><img class="img-responsive logo" src="<?php echo $pathToRoot;?>images/logo.png"></a>
+                    </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 rightHead text-center">
+                    <div class="row" id="socialBar">
+                        <div class="col-lg-3 col-xs-3">
+                            <div class='row'>
+                                <div class='col-lg-6 col-xs-6'>
+                                    
+                                </div>
+                                <div class='col-lg-6 col-xs-6'>
+                                    <a href ='http://www.facebook.com/RedesignRight' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/facebook.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-xs-3">
+                            <div class='row'>
+                                <div class='col-lg-6 col-xs-6'>
+                                    <a href ='https://twitter.com/RedesignRight' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/twitter.png"></a>
+                                </div>
+                                <div class='col-lg-6 col-xs-6'>
+                                    <a href ='https://plus.google.com/115797647665719346090' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/gplus.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-xs-3">
+                            <div class='row'>
+                                <div class='col-lg-6 col-xs-6'>
+                                    <a href ='http://pinterest.com/redesignright/' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/pin.png"></a>
+                                </div>
+                                <div class='col-lg-6 col-xs-6'>
+                                    <a href ='<?php echo $pathToRoot;?>videos.php'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/video.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-xs-3">
+                            <div class='row'>
+                                <div class='col-lg-6 col-xs-6'>
+                                    <a href ='http://www.linkedin.com/pub/debbie-correale/b/481/804' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/linkedin.png"></a>
+                                </div>
+                                <div class='col-lg-6 col-xs-6'>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row banner-text">
+                        <h1>Artfully enhance your home, with what you already own!</h1>
+                    </div>
+                    <div class="row" id="contactInfo">
+                        <div class="col-lg-4 col-xs-4 contactInfo">
+                            <a href='tel:+1-610-955-8202'>610 . 955 . 8202</a>
+                        </div>
+                         <div class="col-lg-4 col-xs-4 contactInfo">
+                            <a href ='http://www.houzz.com/pro/debbiecorreale/redesign-right-llc' target='_blank'><img class="img-responsive logo" src="<?php echo $pathToRoot; ?>images/houzz.png"></a>
+                        </div>
+                        <div class="col-lg-4 col-xs-4 contactInfo ">
+                            <a onClick="javascript:window.open('mailto:debbie@redesignright.com', 'mail');event.preventDefault()"  href='mailto:debbie@redesignright.com' target='_blank'>debbie@redesignright.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row headlineImage hidden-lg hidden-md hidden-sm">
+                    <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+                        <a href="<?php echo $pathToRoot;?>index.php"><img class="img-responsive" src="<?php echo $pathToRoot;?>images/logo.png"></a>
+                    </div>
+                    <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                        <a href="<?php echo $pathToRoot;?>index.php"><img class="img-responsive logo" src="<?php echo $pathToRoot;?>images/logo.png"></a>
+                    </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 rightHead">
+                    <div class="row" id="contactInfo">
+                        <div class="col-lg-4 col-xs-12 text-center">
+                            <a href='tel:+1-610-955-8202'>610 . 955 . 8202</a>
+                        </div>
+                        <div class="col-lg-4 col-xs-12 text-center">
+                            <a onClick="javascript:window.open('mailto:mail@domain.com', 'mail');event.preventDefault()" href='mailto:debbie@redesignright.com' target='_blank'>debbie@redesignright.com</a>
+                        </div>
+                        <div class="col-lg-4 col-xs-12 contactInfo">
+                            <a href ='http://www.houzz.com/pro/debbiecorreale/redesign-right-llc' target='_blank'><img class="img-responsive logo" src="<?php echo $pathToRoot; ?>images/houzz.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 hidden-xs mainNav">
+                    <ul id='bigNav' class="nav nav-pills nav-justified">
+                        <li role="presentation" class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo $pathToRoot; ?>services.php#education" role="button" aria-expanded="false">
+                                Education Services <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>redesign-staging-training-philadelphia.htm">5-Day Interior Redesign and Staging Program</a></li>
+                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>interior-redesign-training-philadelphia.html">3-Day Interior Redesign Program</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo $pathToRoot; ?>services.php#design" role="button" aria-expanded="false">
+                                Design Services <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>interior-redesign-west-chester-pa.htm">Home Redesign</a></li>
+                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>home-staging-pa.htm">Home Staging</a></li>
+                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>paint-color.htm">Color Consultation</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>about-debbie-correale.htm">About</a></li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>testimonials.php">Testimonials</a></li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>staging-portfolio.htm">Gallery</a></li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>contact-redesign-right-philadelphia-pa.htm">Contact</a></li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>wordpress">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <ul id='smallNav' class="nav nav-pills nav-stacked">
+                        <li role="presentation" class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo $pathToRoot; ?>services.php#education" role="button" aria-expanded="false">
+                                Education Services <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>redesign-staging-training-philadelphia.htm">5-Day Interior Redesign and Staging Program</a></li>
+                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>interior-redesign-training-philadelphia.html">3-Day Interior Redesign Program</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo $pathToRoot; ?>services.php#design" role="button" aria-expanded="false">
+                                Design Services <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>interior-redesign-west-chester-pa.htm">Home Redesign</a></li>
+                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>home-staging-pa.htm">Home Staging</a></li>
+                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>paint-color.htm">Color Consultation</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>about-debbie-correale.htm">About</a></li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>testimonials.php">Testimonials</a></li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>staging-portfolio.htm">Gallery</a></li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>contact-redesign-right-philadelphia-pa.htm">Contact</a></li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>wordpress">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+
