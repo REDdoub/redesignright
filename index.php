@@ -5,7 +5,7 @@ $title = "Redesign Right";
 include 'layout/header.php';
 ?>
 <div class="row slideshow">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 xs-small-buffer">
         <div class="carousel slide" data-ride="carousel" id="mainShow">
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
@@ -65,4 +65,3 @@ include 'layout/header.php';
 <script src="js/index.js"></script>
 <?php
 include 'layout/footer.php';
-

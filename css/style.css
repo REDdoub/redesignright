@@ -68,7 +68,7 @@ body{
 }
 
 #socialBar{
-    //padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .slideShow{
@@ -102,7 +102,7 @@ body{
     border-bottom: black;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    
+
 }
 
 .service-row{
@@ -113,7 +113,7 @@ body{
     .midRow{
         text-align: center;
     }
-    
+
     .vertical-align{
         display: inherit;
     }
@@ -154,6 +154,7 @@ h1{
 #bigNav li a{
     color: black;
     font-weight: bold;
+    font-size: 95%;
 }
 
 #smallNav li a{
@@ -178,7 +179,7 @@ h1{
 }
 
 .galleryLink{
-    
+
 }
 
 blockquote{
@@ -216,7 +217,7 @@ a, a:hover, a:active, a:active, a:focus{
 .contact-photo{
     //width: 50%;
     //height: auto;
-    
+
 }
 
 .thankYou{
@@ -232,7 +233,7 @@ a, a:hover, a:active, a:active, a:focus{
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
- 
+
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -264,4 +265,51 @@ a, a:hover, a:active, a:active, a:focus{
     .center-xs{
         text-align: inherit;
     }
+}
+
+@media (max-width: 992px){
+  .shrink-text-sm {
+        font-size: 73%;
+  }
+}
+
+.navbar-toggle {
+  background-color: #ED1A3B;
+  border: 1px solid black;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-toggle .icon-bar{
+  background-color: white;
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#smallNavHolder #smallNav .nav-header {
+  text-decoration: underline;
+}
+
+#email {
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.row-align {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.small-item {
+  font-size: .85em;
+}
+
+@media (max-width: 687px){
+  .xs-small-buffer {
+        margin-top: -1.5em;
+  }
 }

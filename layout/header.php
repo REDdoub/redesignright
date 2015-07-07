@@ -48,18 +48,15 @@ if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) &&
         <div class='container'>
             <?php echo $modal; ?>
             <div class="row headlineImage hidden-xs vertical-align">
-                    <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
-                        <a href="<?php echo $pathToRoot;?>index.php"><img class="img-responsive headlineImage" src="<?php echo $pathToRoot;?>images/logo.png"></a>
-                    </div>
-                    <div class="hidden-lg hidden-md hidden-sm col-xs-12">
-                        <a href="<?php echo $pathToRoot;?>index.php"><img class="img-responsive logo" src="<?php echo $pathToRoot;?>images/logo.png"></a>
-                    </div>
-                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 rightHead text-center">
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    <a href="<?php echo $pathToRoot;?>index.php"><img class="img-responsive headlineImage" src="<?php echo $pathToRoot;?>images/logo.png"></a>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-8 rightHead text-center">
                     <div class="row" id="socialBar">
                         <div class="col-lg-3 col-xs-3">
                             <div class='row'>
                                 <div class='col-lg-6 col-xs-6'>
-                                    
+
                                 </div>
                                 <div class='col-lg-6 col-xs-6'>
                                     <a href ='http://www.facebook.com/RedesignRight' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/facebook.png"></a>
@@ -95,38 +92,42 @@ if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) &&
                                 </div>
                             </div>
                         </div>
-
                     </div>
                     <div class="row banner-text">
+                      <div class="col-md-12 hidden-sm hidden-xs">
                         <h1>Artfully enhance your home, with what you already own!</h1>
+                      </div>
+                      <div class="hidden-lg hidden-md col-sm-12 hidden-xs">
+                        <h2>Artfully enhance your home, with what you already own!</h2>
+                      </div>
                     </div>
                     <div class="row" id="contactInfo">
-                        <div class="col-lg-4 col-xs-4 contactInfo">
+                        <div class="col-lg-4 col-xs-4 contactInfo shrink-text-sm">
                             <a href='tel:+1-610-955-8202'>610 . 955 . 8202</a>
                         </div>
                          <div class="col-lg-4 col-xs-4 contactInfo">
                             <a href ='http://www.houzz.com/pro/debbiecorreale/redesign-right-llc' target='_blank'><img class="img-responsive logo" src="<?php echo $pathToRoot; ?>images/houzz.png"></a>
                         </div>
-                        <div class="col-lg-4 col-xs-4 contactInfo ">
+                        <div class="col-lg-4 col-xs-4 contactInfo shrink-text-sm text-wrap">
                             <a onClick="javascript:window.open('mailto:debbie@redesignright.com', 'mail');event.preventDefault()"  href='mailto:debbie@redesignright.com' target='_blank'>debbie@redesignright.com</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row headlineImage hidden-lg hidden-md hidden-sm">
-                    <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
-                        <a href="<?php echo $pathToRoot;?>index.php"><img class="img-responsive" src="<?php echo $pathToRoot;?>images/logo.png"></a>
-                    </div>
-                    <div class="hidden-lg hidden-md hidden-sm col-xs-12">
-                        <a href="<?php echo $pathToRoot;?>index.php"><img class="img-responsive logo" src="<?php echo $pathToRoot;?>images/logo.png"></a>
-                    </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+                    <a href="<?php echo $pathToRoot;?>index.php"><img class="img-responsive" src="<?php echo $pathToRoot;?>images/logo.png"></a>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <a href="<?php echo $pathToRoot;?>index.php"><img class="img-responsive logo" src="<?php echo $pathToRoot;?>images/logo.png"></a>
+                </div>
                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 rightHead">
                     <div class="row" id="contactInfo">
                         <div class="col-lg-4 col-xs-12 text-center">
                             <a href='tel:+1-610-955-8202'>610 . 955 . 8202</a>
                         </div>
                         <div class="col-lg-4 col-xs-12 text-center">
-                            <a onClick="javascript:window.open('mailto:mail@domain.com', 'mail');event.preventDefault()" href='mailto:debbie@redesignright.com' target='_blank'>debbie@redesignright.com</a>
+                            <a id="email" onClick="javascript:window.open('mailto:mail@domain.com', 'mail');event.preventDefault()" href='mailto:debbie@redesignright.com' target='_blank'><span>debbie@redesignright.com</span></a>
                         </div>
                         <div class="col-lg-4 col-xs-12 contactInfo">
                             <a href ='http://www.houzz.com/pro/debbiecorreale/redesign-right-llc' target='_blank'><img class="img-responsive logo" src="<?php echo $pathToRoot; ?>images/houzz.png"></a>
@@ -134,62 +135,66 @@ if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) &&
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 hidden-xs mainNav">
-                    <ul id='bigNav' class="nav nav-pills nav-justified">
-                        <li role="presentation" class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo $pathToRoot; ?>services.php#education" role="button" aria-expanded="false">
-                                Education Services <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>redesign-staging-training-philadelphia.htm">5-Day Interior Redesign and Staging Program</a></li>
-                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>interior-redesign-training-philadelphia.html">3-Day Interior Redesign Program</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation" class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo $pathToRoot; ?>services.php#design" role="button" aria-expanded="false">
-                                Design Services <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>interior-redesign-west-chester-pa.htm">Home Redesign</a></li>
-                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>home-staging-pa.htm">Home Staging</a></li>
-                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>paint-color.htm">Color Consultation</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>about-debbie-correale.htm">About</a></li>
-                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>testimonials.php">Testimonials</a></li>
-                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>staging-portfolio.htm">Gallery</a></li>
-                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>contact-redesign-right-philadelphia-pa.htm">Contact</a></li>
-                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>wordpress">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
-                    <ul id='smallNav' class="nav nav-pills nav-stacked">
-                        <li role="presentation" class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo $pathToRoot; ?>services.php#education" role="button" aria-expanded="false">
-                                Education Services <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>redesign-staging-training-philadelphia.htm">5-Day Interior Redesign and Staging Program</a></li>
-                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>interior-redesign-training-philadelphia.html">3-Day Interior Redesign Program</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation" class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo $pathToRoot; ?>services.php#design" role="button" aria-expanded="false">
-                                Design Services <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>interior-redesign-west-chester-pa.htm">Home Redesign</a></li>
-                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>home-staging-pa.htm">Home Staging</a></li>
-                                <li role="presentation"><a href="<?php echo $pathToRoot; ?>paint-color.htm">Color Consultation</a></li>
-                            </ul>
-                        </li>
-                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>about-debbie-correale.htm">About</a></li>
-                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>testimonials.php">Testimonials</a></li>
-                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>staging-portfolio.htm">Gallery</a></li>
-                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>contact-redesign-right-philadelphia-pa.htm">Contact</a></li>
-                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>wordpress">Blog</a></li>
-                    </ul>
-                </div>
-            </div>
+          </div>
 
+          <div class="navbar">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <div class="col-lg-12 hidden-xs mainNav xs-small-bot-buffer">
+                  <ul class="nav nav-pills nav-justified" id="bigNav">
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo $pathToRoot; ?>services.php#education" role="button" aria-expanded="false">
+                            Education Services <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation"><a href="<?php echo $pathToRoot; ?>redesign-staging-training-philadelphia.htm">5-Day Interior Redesign and Staging Program</a></li>
+                            <li role="presentation"><a href="<?php echo $pathToRoot; ?>interior-redesign-training-philadelphia.html">3-Day Interior Redesign Program</a></li>
+                        </ul>
+                    </li>
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo $pathToRoot; ?>services.php#design" role="button" aria-expanded="false">
+                            Design Services <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation"><a href="<?php echo $pathToRoot; ?>interior-redesign-west-chester-pa.htm">Home Redesign</a></li>
+                            <li role="presentation"><a href="<?php echo $pathToRoot; ?>home-staging-pa.htm">Home Staging</a></li>
+                            <li role="presentation"><a href="<?php echo $pathToRoot; ?>paint-color.htm">Color Consultation</a></li>
+                        </ul>
+                    </li>
+                    <li role="presentation" class="row-align"><a href="<?php echo $pathToRoot; ?>about-debbie-correale.htm">About</a></li>
+                    <li role="presentation" class="row-align"><a href="<?php echo $pathToRoot; ?>testimonials.php">Testimonials</a></li>
+                    <li role="presentation" class="row-align"><a href="<?php echo $pathToRoot; ?>staging-portfolio.htm">Gallery</a></li>
+                    <li role="presentation" class="row-align"><a href="<?php echo $pathToRoot; ?>contact-redesign-right-philadelphia-pa.htm">Contact</a></li>
+                    <li role="presentation" class="row-align"><a href="<?php echo $pathToRoot; ?>wordpress">Blog</a></li>
+                  </ul>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12" id='smallNavHolder'>
+                    <ul id='smallNav' class='nav'>
+                        <li class="nav-header">Education Services</li>
+                        <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>redesign-staging-training-philadelphia.htm">5-Day Interior Redesign and Staging Program</a></li>
+                        <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>interior-redesign-training-philadelphia.html">3-Day Interior Redesign Program</a></li>
+                        <hr />
+                        <li class="nav-header">Design Services</li>
+                        <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>interior-redesign-west-chester-pa.htm">Home Redesign</a></li>
+                        <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>home-staging-pa.htm">Home Staging</a></li>
+                        <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>paint-color.htm">Color Consultation</a></li>
+                        <hr />
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>about-debbie-correale.htm">About</a></li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>testimonials.php">Testimonials</a></li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>staging-portfolio.htm">Gallery</a></li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>contact-redesign-right-philadelphia-pa.htm">Contact</a></li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>wordpress">Blog</a></li>
+                        <hr />
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
