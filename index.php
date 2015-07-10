@@ -62,6 +62,7 @@ include 'layout/header.php';
         </div>
     </div>
 </div>
+
 <script src="js/index.js"></script>
 <?php
 include 'layout/footer.php';
