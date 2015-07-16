@@ -38,6 +38,7 @@ if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) &&
         <script src="<?php echo $pathToRoot; ?>js/jquery-1.11.1.min.js"></script>
         <script src="<?php echo $pathToRoot; ?>js/bootstrap.min.js"></script>
         <script src="<?php echo $pathToRoot; ?>js/jquery.lazyload.min.js"></script>
+        <script src="<?php echo $pathToRoot; ?>js/menu-text.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="<?php echo $pathToRoot; ?>css/style.css">
@@ -45,6 +46,40 @@ if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) &&
         <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
     <body>
+        <div class="hidden-lg hidden-md hidden-sm navbar">
+          <div class="container">
+            <div class='hidden-lg hidden-md hidden-sm col-xs-12'>
+              <div class="navbar-header" id='mobile-header'>
+                <button type="button" id='mobile-btn' class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <h3 id='menu-text' class='text-center bump-up'>Menu</h3>
+                  <p class='text-right bump-up'><span id='remove' ></span></p>
+                </button>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12" id='smallNavHolder'>
+                    <ul id='smallNav' class='nav'>
+                        <li class="nav-header">Education Services</li>
+                        <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>redesign-staging-training-philadelphia.htm">5-Day Interior Redesign and Staging Program</a></li>
+                        <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>interior-redesign-training-philadelphia.html">3-Day Interior Redesign Program</a></li>
+                        <hr />
+                        <li class="nav-header">Design Services</li>
+                        <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>interior-redesign-west-chester-pa.htm">Home Redesign</a></li>
+                        <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>home-staging-pa.htm">Home Staging</a></li>
+                        <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>paint-color.htm">Color Consultation</a></li>
+                        <hr />
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>about-debbie-correale.htm">About</a></li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>testimonials.php">Testimonials</a></li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>staging-portfolio.htm">Gallery</a></li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>contact-redesign-right-philadelphia-pa.htm">Contact</a></li>
+                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>wordpress">Blog</a></li>
+                        <hr />
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class='container'>
             <?php echo $modal; ?>
             <div class="row headlineImage hidden-xs vertical-align">
@@ -139,14 +174,14 @@ if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) &&
 
           <div class="navbar">
             <div class="container">
-              <div class="navbar-header">
+              <!-- <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                   <span class="sr-only">Toggle navigation</span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-              </div>
+              </div> -->
               <div id="navbar" class="navbar-collapse collapse">
                 <div class="col-lg-12 hidden-xs mainNav xs-small-bot-buffer">
                   <ul class="nav nav-pills nav-justified" id="bigNav">
