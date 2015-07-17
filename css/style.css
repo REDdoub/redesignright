@@ -274,11 +274,12 @@ a, a:hover, a:active, a:active, a:focus{
 }
 
 .navbar-toggle {
-  background-color: #ED1A3B;
-  border: 1px solid black;
+  /*background-color: #ED1A3B;*/
+  border-bottom: 1px solid black;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  height: 2em;
 }
 
 .navbar-toggle .icon-bar{
@@ -312,4 +313,12 @@ a, a:hover, a:active, a:active, a:focus{
   .xs-small-buffer {
         margin-top: -1.5em;
   }
+}
+
+#menu-text {
+  margin-top: -.3em;
+}
+
+.bump-up {
+  margin-top: -.7em;
 }
