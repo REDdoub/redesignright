@@ -119,7 +119,7 @@ if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) &&
                     <a href="<?php echo $pathToRoot;?>index.php"><img class="img-responsive" src="<?php echo $pathToRoot;?>images/logo.png"></a>
                 </div>
                 <div class="hidden-lg hidden-md hidden-sm col-xs-12">
-                    <a href="<?php echo $pathToRoot;?>index.php"><img class="img-responsive logo" src="<?php echo $pathToRoot;?>images/logo.png"></a>
+                    <a href="<?php echo $pathToRoot;?>index.php"><img class="img-responsive logo" src="<?php echo $pathToRoot;?>images/logo.png" style="width: 150px; height: auto;"></a>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 rightHead">
                     <div class="row" id="contactInfo">
