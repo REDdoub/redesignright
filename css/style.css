@@ -322,3 +322,8 @@ a, a:hover, a:active, a:active, a:focus{
 .bump-up {
   margin-top: -.7em;
 }
+
+.nav > li > a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
