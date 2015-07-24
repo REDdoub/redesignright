@@ -68,11 +68,11 @@ if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) &&
                         <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>home-staging-pa.htm">Home Staging</a></li>
                         <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>paint-color.htm">Color Consultation</a></li>
                         <hr />
-                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>about-debbie-correale.htm">About</a></li>
-                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>testimonials.php">Testimonials</a></li>
-                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>staging-portfolio.htm">Gallery</a></li>
-                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>contact-redesign-right-philadelphia-pa.htm">Contact</a></li>
-                        <li role="presentation"><a href="<?php echo $pathToRoot; ?>wordpress">Blog</a></li>
+                        <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>about-debbie-correale.htm">About</a></li>
+                        <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>testimonials.php">Testimonials</a></li>
+                        <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>staging-portfolio.htm">Gallery</a></li>
+                        <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>contact-redesign-right-philadelphia-pa.htm">Contact</a></li>
+                        <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>wordpress">Blog</a></li>
                         <hr />
                     </ul>
                 </div>
@@ -138,7 +138,7 @@ if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) &&
                     </div>
                     <div class="row" id="contactInfo">
                         <div class="col-lg-4 col-xs-4 contactInfo shrink-text-sm">
-                            <a href='tel:+1-610-955-8202'>610 . 955 . 8202</a>
+                            <a href='tel:+1-610-955-8202'>610.955.8202</a>
                         </div>
                          <div class="col-lg-4 col-xs-4 contactInfo">
                             <a href ='http://www.houzz.com/pro/debbiecorreale/redesign-right-llc' target='_blank'><img class="img-responsive logo" src="<?php echo $pathToRoot; ?>images/houzz.png"></a>
@@ -159,7 +159,7 @@ if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) &&
                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 rightHead">
                     <div class="row" id="contactInfo">
                         <div class="col-lg-4 col-xs-12 text-center">
-                            <a href='tel:+1-610-955-8202'>610 . 955 . 8202</a>
+                            <a href='tel:+1-610-955-8202'>610.955.8202</a>
                         </div>
                         <div class="col-lg-4 col-xs-12 text-center">
                             <a id="email" onClick="javascript:window.open('mailto:mail@domain.com', 'mail');event.preventDefault()" href='mailto:debbie@redesignright.com' target='_blank'><span>debbie@redesignright.com</span></a>
