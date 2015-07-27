@@ -311,7 +311,10 @@ a, a:hover, a:active, a:active, a:focus{
 
 @media (max-width: 687px){
   .xs-small-buffer {
-        margin-top: -1.5em;
+    margin-top: -1.5em;
+  }
+  .xs-prevent-overlap {
+    height: 2em;
   }
 }
 
