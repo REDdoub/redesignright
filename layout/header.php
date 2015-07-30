@@ -144,7 +144,7 @@ if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) &&
                             <a href ='http://www.houzz.com/pro/debbiecorreale/redesign-right-llc' target='_blank'><img class="img-responsive logo" src="<?php echo $pathToRoot; ?>images/houzz.png"></a>
                         </div>
                         <div class="col-lg-4 col-xs-4 contactInfo shrink-text-sm text-wrap">
-                            <a onClick="javascript:window.open('mailto:debbie@redesignright.com', 'mail');event.preventDefault()"  href='mailto:debbie@redesignright.com' target='_blank'>debbie@redesignright.com</a>
+                            <a onclick="window.location='mailto:debbie@redesignright.com'; return false;"  href='#'>debbie@redesignright.com</a>
                         </div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@ if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) &&
                             <a href='tel:+1-610-955-8202'>610.955.8202</a>
                         </div>
                         <div class="col-lg-4 col-xs-12 text-center">
-                            <a id="email" onClick="javascript:window.open('mailto:mail@domain.com', 'mail');event.preventDefault()" href='mailto:debbie@redesignright.com' target='_blank'><span>debbie@redesignright.com</span></a>
+                            <a onclick="window.location='mailto:debbie@redesignright.com'; return false;"  href='#'>debbie@redesignright.com</a>
                         </div>
                         <div class="col-lg-4 col-xs-12 contactInfo">
                             <a href ='http://www.houzz.com/pro/debbiecorreale/redesign-right-llc' target='_blank'><img class="img-responsive logo" src="<?php echo $pathToRoot; ?>images/houzz.png"></a>
