@@ -24,7 +24,20 @@ include 'layout/header.php';
         </div>
     </div>
 </div>
-
+<div class="row top-pad badgeRow">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 bottom-pad">
+        <a href="http://www.houzz.com/pro/debbiecorreale/redesign-right-llc" target="_blank"><img class="img-responsive image-center bottom-pad" src="http://st.houzz.com/static/badge_16_8.png"></a>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 bottom-pad">
+        <a href="http://www.houzz.com/pro/debbiecorreale/redesign-right-llc" target="_blank"><img class="img-responsive image-center bottom-pad" src="http://st.houzz.com/static/badge_13_8.png"></a>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 bottom-pad">
+        <a href="http://www.houzz.com/pro/debbiecorreale/redesign-right-llc" target="_blank"><img class="img-responsive image-center" src="http://st.houzz.com/static/badge_8_8.png"></a>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 bottom-pad">
+            <a href="http://www.houzz.com/pro/debbiecorreale/redesign-right-llc" target="_blank"><img class="img-responsive image-center bottom-pad" src="http://st.hzcdn.com/static/badge_22_8.png"></a>
+    </div>
+</div>
 <div class="row midRow vertical-align">
     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
         <h2><strong>Our Mission:</strong></h2>

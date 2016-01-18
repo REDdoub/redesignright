@@ -330,3 +330,13 @@ a, a:hover, a:active, a:active, a:focus{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+.top-pad{
+    padding-top: 10px;
+}
+
+.badgeRow{
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
