@@ -8,7 +8,7 @@ include 'layout/header.php';
         <h1>FRSR Certified 3-Day Interior Redesign Training Program Class Agenda</h1>
     </div>
 </div>
-<div class="row">
+<div class="row vertical-align">
     <div class="col-xs-12 col-sm-6">
         <h2>Redesign Services</h2>
         <ul>
@@ -21,6 +21,9 @@ include 'layout/header.php';
             <li>Hands-on design experience in two client homes</li>
             <li>FRSR Certified 3-Day Interior Redesign Training Program</li>
         </ul>
+    </div>
+    <div class="col-xs-12 col-sm-6 text-center">
+        <blockquote>Classes are filling quickly! <a href='3-day-interior-redesign-class-philadelphia-pa.html'><button class="btn btn-lg btn-red" type="button">Register Now!</button></a></blockquote>
     </div>
 </div>
 <div class='row bottom-pad'>

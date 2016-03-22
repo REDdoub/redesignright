@@ -46,7 +46,7 @@ include 'layout/header.php';
                 <img class="img-circle img-responsive" src="images/debbie.jpg">
             </div>
             <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                <p>Redesign Right specializes in Interior Decorating, Redesign, Home Staging and Paint Color Selection. We take care of all of your redesign or real estate staging needs with the goal of making a superb first impression starting with what you already own! We help you realize your dream of owning your own redesign and home staging business through a 5-day certified training program.</p>
+                <p>Redesign Right specializes in Interior Decorating, Redesign, Home Staging and Paint Color Selection. We take care of all of your interior redesign or real estate staging needs with the goal of making a superb first impression starting with what you already own! We help you realize your dream of owning your own interior redesign and home staging business through a 5-day certified training program.</p>
                 <p>As a ten-time award winning interior designer and home stager, Debbie Correale is a leader in the industry! Whether your goal is to decorate and redesign your home affordably with what you own, sell your home quickly at top-dollar or pursue a passion in a career of home decorating. Debbie is the go-to professional to help you realize your dreams!</p>
                 <p>We are currently servicing the Philadelphia, Pennsylvania area including Chester, Delaware, Montgomery, Philadelphia, Lancaster and Lehigh counties, also select areas of Delaware and New Jersey. <a href="about-debbie-correale.htm">Learn more</a></p>
             </div>
