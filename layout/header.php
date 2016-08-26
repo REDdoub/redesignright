@@ -29,6 +29,7 @@ if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) &&
         <meta property="og:description" content="">
         <meta property="og:image" content="">
         <meta name="description" content=''>
+        <meta name="google-site-verification" content="RoiV9RLoYiiowCk23d9MzIweM-fCkm2IdZjLf0rofTw" />
         <link rel="stylesheet" type="text/css" href="<?php echo $pathToRoot; ?>css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo $pathToRoot; ?>css/bootstrap-theme.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo $pathToRoot; ?>css/jquery-ui.min.css">
