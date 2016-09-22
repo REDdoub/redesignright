@@ -29,7 +29,7 @@ include 'layout/header.php';
         </ul>
     </div>
     <div class="col-xs-12 col-sm-6">
-        <h2>Business Formation, Marking, and Promotion</h2>
+        <h2>Business Formation, Marketing, and Promotion</h2>
         <ul>
             <li>How to create and run a successful full-service Redesign and Staging business.</li>
             <li>17 step Business Startup Guide</li>
