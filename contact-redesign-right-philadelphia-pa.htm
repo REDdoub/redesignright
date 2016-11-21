@@ -3,41 +3,6 @@ $title = "Redesign Right - Contact Us";
 $pathToRoot = "";
 include 'layout/header.php';
 
-if(isset($_POST['g-recaptcha-response'])){
-    if($_POST['g-recaptcha-response'] != ''){
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        curl_setopt($ch, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, array('secret' => '6LcCBgYTAAAAAP3oRJsQi2Kp1OPxkYKbob9q-xxu', 'response'=> $_POST['g-recaptcha-response']));
-        $output = curl_exec($ch);
-        echo curl_error($ch);
-        curl_close($ch);
-        $captcha = json_decode($output);
-
-        if(isset($_POST['name']) || isset($_POST['message']) || isset($_POST['phone']) || isset($_POST['email']) && $_POST['mode'] == 'body' && $captcha['success']){
-        $Subject = "Online  contact form submission";
-        $Body = "Name:" . $_POST['name'] . "\nMessage: " . $_POST['message'] . "\nPhone: " . $_POST['phone'] . "\nEmail: " . $_POST['email'] . "\nSource: " . $_POST['source'] . "\nCustom: " . $_POST['custom'];
-        $To = 'debbie@redesignright.com';
-        $headers = 'From: RRclientContact@redesignright.com' . "\r\n" .
-                    'Reply-To: debbie@redesignright.com' . "\r\n" .
-                    'X-Mailer: PHP/' . phpversion();
-            if(mail($To, $Subject, $Body, $headers)){
-                echo '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button><h4 class="modal-title" id="myModalLabel">Submission Received</h4></div><div class="modal-body">Thanks for getting in contact with us! We will get back to you as soon as possible.</div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div><script type="text/javascript">$(window).load(function(){$("#myModal").modal("show");});</script>';
-            }else{
-            echo '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button><h4 class="modal-title" id="myModalLabel">Submission Not Received</h4></div><div class="modal-body">Sorry! Verification failure. Make sure all the fields are filled out. </div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div><script type="text/javascript">$(window).load(function(){$("#myModal").modal("show");});</script>';
-            }
-        }else{
-            echo '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button><h4 class="modal-title" id="myModalLabel">Submission Not Received</h4></div><div class="modal-body">Sorry! Verification failure. Make sure all the fields are filled out. </div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div><script type="text/javascript">$(window).load(function(){$("#myModal").modal("show");});</script>';
-        }
-    }else{
-        echo '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button><h4 class="modal-title" id="myModalLabel">Submission Not Received</h4></div><div class="modal-body">Sorry! Verification failure. Make sure all the fields are filled out. </div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div><script type="text/javascript">$(window).load(function(){$("#myModal").modal("show");});</script>';
-    }
-
-}
-
-
 ?>
 <div class='row upper-pad vertical-align text-center'>
     <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
