@@ -22,7 +22,9 @@
             <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6'>
                 <a href ='http://redesignright.com/wordpress/' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/wp.png"></a>
             </div>
-            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6'></div>
+            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6'>
+                <a href =' https://www.instagram.com/redesignright/' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/instagram.png"></a>
+            </div>
         </div>
     </div>
     <div class='col-sm-4 col-xs-12 text-center'>

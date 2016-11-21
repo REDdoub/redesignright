@@ -102,7 +102,7 @@ if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) &&
                         <div class="col-lg-3 col-xs-3">
                             <div class='row'>
                                 <div class='col-lg-6 col-xs-6'>
-
+                                    <a href =' https://www.instagram.com/redesignright/' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/instagram.png"></a>
                                 </div>
                                 <div class='col-lg-6 col-xs-6'>
                                     <a href ='http://www.facebook.com/RedesignRight' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/facebook.png"></a>

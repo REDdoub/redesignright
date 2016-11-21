@@ -340,3 +340,11 @@ a, a:hover, a:active, a:active, a:focus{
     border-bottom-style: solid;
     border-bottom-width: 2px;
 }
+
+.highlight{
+    font-weight: bold;
+}
+
+.img-logo{
+    max-height: 106px;
+}
