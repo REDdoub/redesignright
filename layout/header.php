@@ -47,7 +47,7 @@ if($_POST['mode'] == 'footer'){
         $mail->SMTPAuth = TRUE;
         $mail->Username = "debbie@redesignright.com";
         $mail->Password = "1018#2Maltese";
-        $mail->SMTPSecure = "tls";
+        $mail->SMTPSecure = "ssl";
         $mail->Port = 587;
         $mail->From = 'website@redesignright.com';
         $mail->FromName = 'Website Submission';
