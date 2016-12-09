@@ -38,8 +38,18 @@ if($_POST['mode'] == 'footer'){
                     "\r\nService:" . $_POST['service'] . 
                     "\r\nMessage::" . $_POST['message'];
         $subject = "Website Form Submission";
-        $to = "debbie@redesignright.com";
-        $mailResult = mail($to, $subject, $message);
+        $to = "debbie+contactform@redesignright.com";
+        $headers = "";
+        $headers .= "Reply-To: debbie@redesignright.com \r\n";
+        $headers .= "Return-Path: debbie@redesignright.com \r\n";
+        $headers .= "From: \"Debbie Correale\" <debbie@redesignright.com> \r\n";
+        $headers .= "Organization: Redesign RIght\r\n";
+        $headers .= "MIME-Version: 1.0\r\n";
+        $headers .= "Content-type: text/plain; charset=iso-8859-1\r\n";
+        $headers .= "Content-Transfer-Encoding: binary";
+        $headers .= "X-Priority: 3\r\n";
+        $headers .= "X-Mailer: PHP". phpversion() ."\r\n";
+        $mailResult = mail($to, $subject, $message, $headers);
         if($mailResult){
             $modal = '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button><h4 class="modal-title" id="myModalLabel">Contact Request</h4></div><div class="modal-body">Thank you for your submission. We will be in touch soon!</div></div></div></div><script type="text/javascript">$(window).load(function(){$("#myModal").modal("show");});</script>';
         }else{
