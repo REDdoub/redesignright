@@ -40,14 +40,21 @@ if($_POST['mode'] == 'footer'){
                     "\r\nMessage::" . $_POST['message'];
         $subject = "Website Form Submission";
         
-        $mail = new PHPMailer();
-        $mail->SMTPDebug = 3;
-        $mail->isSMTP();
-        $mail->Host = "smtp.gmail.com";
-        $mail->SMTPAuth = TRUE;
+       $mail = new PHPMailer();
+        $mail->isSMTP(true); // telling the class to use SMTP
+        $mail->SMTPOptions = array(
+                'ssl' => array(
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true
+                )
+        );
+        $mail->SMTPSecure = 'tls';
+        $mail->Host = 'tls://smtp.gmail.com';
+        $mail->Port = 587;
+        $mail->SMTPAuth = true;
         $mail->Username = "debbie@redesignright.com";
         $mail->Password = "1018#2Maltese";
-        $mail->SMTPSecure = "ssl";
         $mail->Port = 587;
         $mail->From = 'website@redesignright.com';
         $mail->FromName = 'Website Submission';
