@@ -1,9 +1,10 @@
 <?php
 include $pathToRoot . "classes/mailchimp.php";
 $modal = "";
-if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) && !isset($_POST['fname']) && $_POST['mode'] == 'footer'){
-    $modal = '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button><h4 class="modal-title" id="myModalLabel">Sign Up Request</h4></div><div class="modal-body"><form method="post" action=""><table><tr><td>First Name:</td><td><input type="text" class="form-control" name="fname"></td></tr><tr><td>Last Name: </td><td><input type="text" name="lname" class="form-control"></td></tr></table><button class="btn btn-default">Submit</button><input type="hidden" name="email" value="' . $_POST['email'] . '"></form></div></div></div></div><script type="text/javascript">$(window).load(function(){$("#myModal").modal("show");});</script>';
-}
+if($_POST['mode'] == 'footer'){
+    if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) && !isset($_POST['fname'])){
+        $modal = '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button><h4 class="modal-title" id="myModalLabel">Sign Up Request</h4></div><div class="modal-body"><form method="post" action=""><table><tr><td>First Name:</td><td><input type="text" class="form-control" name="fname"></td></tr><tr><td>Last Name: </td><td><input type="text" name="lname" class="form-control"></td></tr></table><button class="btn btn-default">Submit</button><input type="hidden" name="email" value="' . $_POST['email'] . '"><input type="hidden" name="mode" value="footer"></form></div></div></div></div><script type="text/javascript">$(window).load(function(){$("#myModal").modal("show");});</script>';
+    }
     if(isset($_POST['email']) && isset($_POST['lname']) && isset($_POST['fname'])){
         $MailChimp = new MailChimp('ca264afb069101d37691072be81e4ebd-us8');
         $result = $MailChimp->call('lists/subscribe', array(
@@ -17,6 +18,24 @@ if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) &&
             $modal = '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button><h4 class="modal-title" id="myModalLabel">Sign Up Request</h4></div><div class="modal-body">Thank you for signing up for our decorating tips!</div></div></div></div><script type="text/javascript">$(window).load(function(){$("#myModal").modal("show");});</script>';
         }
     }
+}elseif($_POST['mode'] == 'contactform'){
+    require_once "recaptchalib.php";
+    $secret = "6LcePAATAAAAABjXaTsy7gwcbnbaF5XgJKwjSNwT";
+    $response = null;
+    $reCaptcha = new ReCaptcha($secret);
+    if ($_POST["g-recaptcha-response"]) {
+        $response = $reCaptcha->verifyResponse(
+            $_SERVER["REMOTE_ADDR"],
+            $_POST["g-recaptcha-response"]
+        );
+    }
+     if ($response != null && $response->success) {
+         //send email
+         echo "CAPTCHA WORKED";
+     }else{
+         echo "CAPTCHA FAILED";
+     }
+}
 ?>
 <html>
     <head>
