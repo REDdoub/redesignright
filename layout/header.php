@@ -1,5 +1,6 @@
 <?php
 include $pathToRoot . "classes/mailchimp.php";
+include $pathToRoot . "classes/recaptcha.php";
 $modal = "";
 if($_POST['mode'] == 'footer'){
     if(isset($_POST['email']) && $_POST['email'] != '' && !isset($_POST['lname']) && !isset($_POST['fname'])){
@@ -19,8 +20,7 @@ if($_POST['mode'] == 'footer'){
         }
     }
 }elseif($_POST['mode'] == 'contactform'){
-    require_once "classes/recaptcha.php";
-    $secret = "6LcePAATAAAAABjXaTsy7gwcbnbaF5XgJKwjSNwT";
+    $secret = "6LcCBgYTAAAAAP3oRJsQi2Kp1OPxkYKbob9q-xxu";
     $response = null;
     $reCaptcha = new ReCaptcha($secret);
     if ($_POST["g-recaptcha-response"]) {
