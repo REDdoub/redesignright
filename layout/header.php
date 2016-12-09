@@ -33,6 +33,7 @@ if($_POST['mode'] == 'footer'){
          //send email
          echo "CAPTCHA WORKED";
      }else{
+         print_r($response);
          echo "CAPTCHA FAILED";
      }
 }
