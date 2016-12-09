@@ -19,7 +19,7 @@ if($_POST['mode'] == 'footer'){
         }
     }
 }elseif($_POST['mode'] == 'contactform'){
-    require_once "recaptchalib.php";
+    require_once "classes/recaptcha.php";
     $secret = "6LcePAATAAAAABjXaTsy7gwcbnbaF5XgJKwjSNwT";
     $response = null;
     $reCaptcha = new ReCaptcha($secret);
