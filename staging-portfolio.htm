@@ -9,7 +9,7 @@ while(file_exists("images/gallery/g (" . $index . ").jpg")){
 }
 $perRow = floor(($index -1)/3); 
 $remain = ($index-1) % 3;
-$rowOne = $index - 1;
+$rowOne = $index -1;
 if($remain == 1){
     $rowTwo = ($index - $perRow) - 2;
     $rowThree = ($index - ($perRow * 2)) - 2;
