@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#mainShow').carousel({
-        interval: 5000
+        interval: 2500
     });
     $('.carousel').carousel('next');
     $('#heightMatcher').height($('#heightMatchee').height());
