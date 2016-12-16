@@ -9,43 +9,43 @@ while(file_exists("images/gallery/g (" . $index . ").jpg")){
 }
 $perRow = floor(($index -1)/3); 
 $remain = ($index-1) % 3;
-$rowOne = 1;
+$rowOne = $index;
 if($remain == 1){
-    $rowTwo = $perRow + 2;
-    $rowThree = ($perRow * 2) + 2;
+    $rowTwo = ($index - $perRow) - 2;
+    $rowThree = ($index - ($perRow * 2)) - 2;
 }elseif($remain == 2){
-    $rowTwo = $perRow + 2;
-    $rowThree = ($perRow * 2) + 3;
+    $rowTwo = ($index - $perRow) - 2;
+    $rowThree = ($index - ($perRow * 2)) - 3;
 }else{
-    $rowTwo = $perRow + 1;
-    $rowThree = ($perRow * 2) + 1;
+    $rowTwo = ($index - $perRow) - 1;
+    $rowThree = ($index - ($perRow * 2)) - 1;
 }
 ?>
 <div class="row">
     <div class="col-lg-4 col-md-4 col-xs-12">
 <?php
-while($rowOne < $rowTwo){
+while($rowOne > $rowTwo){
     $id = $rowOne . "id";
     echo "<a href='#" . $id . "' id='" . $id . "' class='galleryLink' onclick='loadMod(\"images/gallery/g (" . $rowOne . ").jpg\")'><img src='images/gallery/comp/g (" . $rowOne . ").jpg' class='galleryImage lazy'></a>";
-    $rowOne++;
+    $rowOne--;
 }
 ?>
     </div>
     <div class="col-lg-4 col-md-4 col-xs-12">
 <?php
-while($rowTwo < $rowThree){
+while($rowTwo > $rowThree){
     $id = $rowTwo . "id";
     echo "<a href='#" . $id . "' id='" . $id . "' class='galleryLink' onclick='loadMod(\"images/gallery/g (" . $rowTwo . ").jpg\")'><img src='images/gallery/comp/g (" . $rowTwo . ").jpg' class='galleryImage lazy'></a>";
-    $rowTwo++;
+    $rowTwo--;
 }
 ?>
     </div>
     <div class="col-lg-4 col-md-4 col-xs-12">
 <?php
-while($rowThree < $index){
+while($rowThree > 0){
     $id = $rowThree . "id";
     echo "<a href='#" . $id . "' id='" . $id . "' class='galleryLink' onclick='loadMod(\"images/gallery/g (" . $rowThree . ").jpg\")'><img src='images/gallery/comp/g (" . $rowThree . ").jpg' class='galleryImage lazy'></a>";
-    $rowThree++;
+    $rowThree--;
 }
 ?>
     </div>
