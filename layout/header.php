@@ -197,8 +197,11 @@ if($_POST['mode'] == 'footer'){
                          <div class="col-lg-4 col-xs-4 contactInfo">
                             <a href ='http://www.houzz.com/pro/debbiecorreale/redesign-right-llc' target='_blank'><img class="img-responsive logo" src="<?php echo $pathToRoot; ?>images/houzz.png"></a>
                         </div>
-                        <div class="col-lg-4 col-xs-4 contactInfo shrink-text-sm text-wrap">
+                        <div class="hidden-lg col-xs-4 contactInfo shrink-text-sm text-wrap">
                             <a onclick="window.location='mailto:debbie@redesignright.com'; return false;"  href='#'>debbie@redesignright.com</a>
+                        </div>
+                        <div class="col-lg-4 hidden-xs hidden-md hidden-sm contactInfo shrink-text-sm text-wrap">
+                            <a href='<?php echo $pathToRoot;?>contact-redesign-right-philadelphia-pa.htm'>debbie@redesignright.com</a>
                         </div>
                     </div>
                 </div>
