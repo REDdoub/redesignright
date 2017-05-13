@@ -138,7 +138,7 @@
 <div class='row vertical-align'>
     <div class='col-lg-8 col-xs-12'>
         <p><h3>Gregory J. Davis</h3></p>
-        <p><strong>Service Provided:</strong> Home Stagin</p>
+        <p><strong>Service Provided:</strong> Home Staging</p>
         <p>"I had a meeting at my parent's house yesterday with Debbie to discuss pre-listing prep and staging to get ready to sell the property. I was extremely impressed with Debbie's knowledge, skill, professionalism and her genuine desire to be as helpful as possible. I have done some staging for my own rental properties and flips so I conceptually understand it, but I have to say Debbie blew me away with her plans, ideas and genuine passion for it. I've never before received such valuable and helpful information in a few short hours. If you are thinking of selling your home or are a Realtor that wants to work with an amazing professional that will surely increase the selling price of your home or listing, you need to get in touch with Debbie. She's simply amazing!"</p>
     </div>
     <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
