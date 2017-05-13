@@ -135,5 +135,15 @@
         <p>"Debbie Correale totally redesigned our home numerous years ago and she continued to help us with many ongoing design decisions throughout the years. She has the ability to bring a “Wow Factor” to every home! She makes spaces look like the magazines, starting all designs with what you already own.  After seeing our home transformed, many of our friends have also created beautiful rooms through Debbie’s talent. When it came time to sell our home, she and her team came back and helped us prepare our home for sale (staging it). I had been told that staged homes sell faster and in our case that was true.  After our home was staged, the first person coming through the house made an immediate offer and insisted we sell them all the furniture, art and accessories in a few of the rooms as they did not want to disturb the way the rooms looked! I have since moved away from PA and have tried to entice Debbie to come to FL to help me in my new home as well!"</p>
     </div>
 </div>
+<div class='row vertical-align'>
+    <div class='col-lg-8 col-xs-12'>
+        <p><h3>Gregory J. Davis</h3></p>
+        <p><strong>Service Provided:</strong> Home Stagin</p>
+        <p>"I had a meeting at my parent's house yesterday with Debbie to discuss pre-listing prep and staging to get ready to sell the property. I was extremely impressed with Debbie's knowledge, skill, professionalism and her genuine desire to be as helpful as possible. I have done some staging for my own rental properties and flips so I conceptually understand it, but I have to say Debbie blew me away with her plans, ideas and genuine passion for it. I've never before received such valuable and helpful information in a few short hours. If you are thinking of selling your home or are a Realtor that wants to work with an amazing professional that will surely increase the selling price of your home or listing, you need to get in touch with Debbie. She's simply amazing!"</p>
+    </div>
+    <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
+        <img class='img-circle img-responsive headshot' src='images/headshots/GregoryDavis.jpg'>
+    </div>
+</div>
 <?php
     include 'layout/footer.php';
