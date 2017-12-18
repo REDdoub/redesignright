@@ -5,12 +5,12 @@
 ?>
 <div class='row vertical-align'>
     <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
-        <img class='img-circle img-responsive headshot' src='images/headshots/AmandaBaylor.jpg'>
+        <img class='img-circle img-responsive headshot' src='images/headshots/KristenHenderson.jpg'>
     </div>
     <div class='col-lg-8 col-xs-12'>
-        <p><h3>Amanda Baylor</h3></p>
+        <p><h3>Kristen Henderson</h3></p>
         <p><strong>Service Provided:</strong> 5-day Training Program</p>
-        <p>"I knew I’d love your course.  However, I had no idea how impactful and empowering it would be! You are a fabulous instructor as well as home stager and redesigner! You truly are changing people’s lives for the better one house at a time!!"</p>
+        <p>"I am a delighted recent graduate of Debbie's Home Redesign and Home Staging Training program. This class turned out to be one of the best decisions of my life as well as one of the best weeks of my life! Debbie is a gifted teacher and warm, encouraging person. She exudes passion for her field and makes classroom and field training FUN! I am getting started on my own Redesign business and now and I have ALL the tools I need, as well as a terrific cheerleader in Debbie. I give my highest praise and recommendation for the teacher and the class!"</p>
     </div>
 </div>
 <div class='row vertical-align'>
@@ -21,6 +21,90 @@
     </div>
     <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
         <img class='img-circle img-responsive headshot' src='images/headshots/AnnMarieCasey.jpg'>
+    </div>
+</div>
+<div class='row vertical-align'>
+    <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
+        <img class='img-circle img-responsive headshot' src='images/headshots/nopic.png'>
+    </div>
+    <div class='col-lg-8 col-xs-12'>
+        <p><h3>Chris Tomlinson</h3></p>
+        <p><strong>Service Provided:</strong>Home Redesign</p>
+        <p>"Debbie spent an afternoon working her magic in our living room and the newly finished basement, artfully rearranging and placing our things in a way that created beautiful and livable spaces. The reveal was like we were on an HGTV show! It was that dramatic and exciting!!</p>
+        <p>Pinterest ideas and design magazines are no substitute for a professional. If you need a redesign or just a refresh, do not think twice about calling Debbie. You will love her as a person just as much as you will marvel at her talent for making your living space something new and wonderful!!"</p>
+    </div>
+</div>
+<div class='row vertical-align'>
+    <div class='col-lg-8 col-xs-12'>
+        <p><h3>Veronica Amexo</h3></p>
+        <p><strong>Service Provided:</strong> Home Redesign</p>
+        <p>"I had Debbie come to help us decorate our townhome. I left a voicemail, and she called back very quickly. That was the first plus, as we had another designer never call back after coming for a consult. Another business we called never replied to my email. Next came my consultation at the end of May. Debbie is super warm and friendly and down to earth. She loves what she does, and I happen to love being around people who love what they do. She's super flexible with how involved you want her to be, and she's very upfront with pricing.</p>
+        <p>She came to my home 6/13/17. My family and I left for several hours so she could work her magic. She made sure we were prepared and made sure that the things we loved the most would have a place in the new decor. When she called us to return home, we discovered that this poor lady had been moving furniture and hanging pics, etc., in 97 degree heat during a power outage. I had NO idea; she told me when I got home. So, no electricity, no a/c. In terrible heat. For 5 hours. She waved it off as if it were nothing (honey I KNOW it was rough). When I came home, I was welcomed to a GORGEOUSLY redesigned home. I can't say enough how perfect everything is. It truly reflects our style and personality, as well as our backgrounds. I just love it. This morning I woke up and just sat at my desk, admiring my amazing view. I highly, HIGHLY recommend Debbie for any of your staging or interior design needs. She will work with your budget and always has a great smile on her face. We're going to have her work with us for our outside needs next!"</p>
+    </div>
+     <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
+         <img class='img-circle img-responsive headshot' src='images/headshots/VeronicaAmexo.jpg'>
+    </div>
+</div>
+<div class='row vertical-align'>
+    <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
+        <img class='img-circle img-responsive headshot' src='images/headshots/melaniecerone.jpg'>
+    </div>
+    <div class='col-lg-8 col-xs-12'>
+        <p><h3>Melanie Cerone</h3></p>
+        <p><strong>Service Provided:</strong> Office Redesign</p>
+        <p>"I can't tell you how much I LOVE my office, Debbie! You truly transformed it into my dream space. Thanks for working your magic in my home once again. You're simply amazing!"</p>
+    </div>
+</div>
+<div class='row vertical-align'>
+    <div class='col-lg-8 col-xs-12'>
+        <p><h3>Debbie Wigmore</h3></p>
+        <p><strong>Service Provided:</strong> 5-day Training Program</p>
+        <p>"I wanted to let you know how excited I am about my new adventure in Redesign, home staging, and custom window treatments. Last week’s class was the most intense, challenging, yet invigorating and motivating experience I have had in the past 30 years. Knowing for a good portion of my life I wanted to become a professional in the design space, I had not been able to find the inner strength to jump into the deep end and make it happen.</p>
+        <p>Your training course is powerful! You validated for me that this profession is what I need to be doing. Your knowledge, experience, and ability to provide the structure, guidance, and confidence to succeed, all with a sense of humor was priceless."</p>
+    </div>
+     <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
+         <img class='img-circle img-responsive headshot' src='images/headshots/nopic.png'>
+    </div>
+</div>
+<div class='row vertical-align'>
+    <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
+        <img class='img-circle img-responsive headshot' src='images/headshots/RichelleB.jpg'>
+    </div>
+    <div class='col-lg-8 col-xs-12'>
+        <p><h3>Richelle B.</h3></p>
+        <p><strong>Service Provided:</strong> 5-day Training Program</p>
+        <p>"I knew my prayers were being answered when I encountered Debbie's five day course on the internet! I was born to do redesign and staging. Debbie was like my midwife helping me to birth my future endeavors. She helped me through the fork in my road by sharing her expertise and knowledge in this business. Her love of helping others has been infectious and overwhelmingly effective. My heavy seems lighter, and my darkness seems brighter! Thank you for giving me information and advice on several levels. I will always remember the life changing encouragement given in such a short amount of time."</p>
+    </div>
+</div>
+<div class='row vertical-align'>
+    <div class='col-lg-8 col-xs-12'>
+        <p><h3>Karen Samuelson</h3></p>
+        <p><strong>Service Provided:</strong> Home Redesign and Staging</p>
+        <p>"Hiring Redesign Right was the best decision that I made, and I’ve been blessed with Debbie’s guidance styling two of my homes. I first met Debbie when we were considering downsizing. She quickly & expertly went room by room to advise staging ideas; our house sold in 4 days!</p>
+        <p>Debbie has impeccable taste and an incredible ability to envision how a space should be reconfigured and redesigned. She’s easy to work with and is always mindful of our budget. She is flexible in coming up with creative solutions and helping us prioritize, and I especially appreciated the times that she sat us down, explained the motivations behind her design choices, and was honest about the negative ramifications when we were about to deviate from the designed specs. Her honest guidance and advice helped us reach a better result than I could have imagined, and I know for sure that I will be contacting Redesign Right first and foremost for my future projects. We are truly enjoying the lovely home we've created together. It brings us beauty, comfort, and joy! I highly recommend her and am grateful for her continued support."</p>
+    </div>
+     <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
+         <img class='img-circle img-responsive headshot' src='images/headshots/nopic.png'>
+    </div>
+</div>
+<div class='row vertical-align'>
+    <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
+        <img class='img-circle img-responsive headshot' src='images/headshots/AmandaBaylor.jpg'>
+    </div>
+    <div class='col-lg-8 col-xs-12'>
+        <p><h3>Amanda Baylor</h3></p>
+        <p><strong>Service Provided:</strong> 5-day Training Program</p>
+        <p>"I knew I’d love your course.  However, I had no idea how impactful and empowering it would be! You are a fabulous instructor as well as home stager and redesigner! You truly are changing people’s lives for the better one house at a time!!"</p>
+    </div>
+</div>
+<div class='row vertical-align'>
+    <div class='col-lg-8 col-xs-12'>
+        <p><h3>Nancy B.</h3></p>
+        <p><strong>Service Provided:</strong> Home Redesign</p>
+        <p>"People say that I have a beautiful home, but I hadn’t re-decorated for 25 years – so it was a lovely 1990s home. I wanted a lovely 2020 home and didn’t know where to start. I needed everything from furniture to window treatments to rugs. When I first met Debbie, I asked her to be honest about the changes I needed to make. She was honest and confident, and that gave me confidence. I started by getting rid of things no longer needed and then moving existing items around. Debbie gave me a plan for buying new items, including a re-designed floor plan for my family room and living room. Four months later, I now have a lovely home for 2020 and beyond. Thank you, Debbie!"</p>
+    </div>
+     <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
+         <img class='img-circle img-responsive headshot' src='images/headshots/NancyB.jpg'>
     </div>
 </div>
 <div class='row vertical-align'>
@@ -45,7 +129,7 @@
 </div>
 <div class='row vertical-align'>
     <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
-        <img class='img-circle img-responsive headshot' src='images/headshots/JoannBillVerderese.jpg'>
+        <img class='img-circle img-responsive headshot' src='images/headshots/nopic.png'>
     </div>
     <div class='col-lg-8 col-xs-12'>
         <p><h3>JoAnn and Bill Verderese</h3></p>
@@ -80,7 +164,7 @@
         <p>"You most certainly are fabulous at what you do and I was thrilled to be a part of every exciting, challenging, inspiring and exhausting (in a good way!) moment of your course!  The various hands-on experiences were invaluable and taught me how important and fun teamwork is in the process of redesign.  The homeowners' reactions to their transformed rooms was priceless! Thank you so much for sharing your wealth of knowledge and expertise and doing so with such enthusiasm, dedication and humor!"</p>
     </div>
     <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
-        <img class='img-circle img-responsive headshot' src='images/headshots/LoriArbitell.jpg'>
+        <img class='img-circle img-responsive headshot' src='images/headshots/nopic.png'>
     </div>
 </div>
 <div class='row vertical-align'>
@@ -122,7 +206,7 @@
         <p>"I had Debbie Correale from Redesign Right repurpose my house. What a phenomenal transformation! For less than the price of a sofa, she made several rooms look so much better than I ever could have imagined. The staging of the furniture made the room considerably more inviting.  I truly would be happy to speak with anyone who is considering using Redesign Right. It is by far the most fantastic, cost effective decorating decision I have ever made."</p>
     </div>
     <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
-        <img class='img-circle img-responsive headshot' src='images/headshots/TreSullivan.jpg'>
+        <img class='img-circle img-responsive headshot' src='images/headshots/nopic.png'>
     </div>
 </div>
 <div class='row vertical-align'>
