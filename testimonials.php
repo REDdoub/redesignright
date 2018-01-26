@@ -42,7 +42,7 @@
         <p>She came to my home 6/13/17. My family and I left for several hours so she could work her magic. She made sure we were prepared and made sure that the things we loved the most would have a place in the new decor. When she called us to return home, we discovered that this poor lady had been moving furniture and hanging pics, etc., in 97 degree heat during a power outage. I had NO idea; she told me when I got home. So, no electricity, no a/c. In terrible heat. For 5 hours. She waved it off as if it were nothing (honey I KNOW it was rough). When I came home, I was welcomed to a GORGEOUSLY redesigned home. I can't say enough how perfect everything is. It truly reflects our style and personality, as well as our backgrounds. I just love it. This morning I woke up and just sat at my desk, admiring my amazing view. I highly, HIGHLY recommend Debbie for any of your staging or interior design needs. She will work with your budget and always has a great smile on her face. We're going to have her work with us for our outside needs next!"</p>
     </div>
      <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
-         <img class='img-circle img-responsive headshot' src='images/headshots/VeronicaAmexo.jpg'>
+         <img class='img-circle img-responsive headshot' src='images/headshots/nopic.png'>
     </div>
 </div>
 <div class='row vertical-align'>
@@ -185,7 +185,7 @@
         <p>"I have always had a passion for decorating and finding that perfect accessory. I heard about Debbie's class through a friend of mine and she suggested I might be interested in taking her course. After spending a week with Debbie I was truly inspired. Because of her class and support I have started my own business."</p>
     </div>
     <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
-        <img class='img-circle img-responsive headshot' src='images/headshots/SusanBierig.jpg'>
+        <img class='img-circle img-responsive headshot' src='images/headshots/nopic.png'>
     </div>
 </div>
 <div class='row vertical-align'>
