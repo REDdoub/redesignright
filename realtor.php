@@ -104,3 +104,5 @@ include 'layout/header.php';
         <p>We are currently serving the Philadelphia, Pennsylvania area including Chester, Delaware, Montgomery, Philadelphia, Lancaster and Lehigh counties, also select areas of Delaware and New Jersey.</p>
     </div>
 </div>
+<?php
+include 'layout/footer.php';
