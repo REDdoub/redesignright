@@ -5,6 +5,46 @@
 ?>
 <div class='row vertical-align'>
     <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
+        <img class='img-circle img-responsive headshot' src='images/headshots/jeffb.jpg'>
+    </div>
+    <div class='col-lg-8 col-xs-12'>
+        <p><h3>Jeff Bollinger (Realtor)</h3></p>
+        <p><strong>Service Provided:</strong>Home Staging</p>
+        <p>"When I find an outstanding Home Stager, I stick with her! Debbie Correale is that person. The goal is to create not only a great First Impression but also a lasting impression that will make the Buyer feel that they have found their ideal home. I call it the "'emotional pull" that comes when everything just feels Right. From furniture arrangement to the right colors, to the Right accessories, Debbie does it to perfection."</p>
+    </div>
+</div>
+<div class='row vertical-align'>
+    <div class='col-lg-8 col-xs-12'>
+        <p><h3>Sabrine R.</h3></p>
+        <p><strong>Service Provided:</strong> Home Staging</p>
+        <p>"Debbie is a powerhouse of talent.  We were amazed at how she knew exactly how to give our rooms that magical extra touch to make them pop for the photographer and our MLS listing.  She has boundless energy and a critical eye for detail.  I highly recommend her to anyone who wants to stand out from the rest in selling your home, or even if you are ready for an amazing new fresh look to your rooms.  You will be so glad that you chose her!"</p>
+    </div>
+    <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
+        <img class='img-circle img-responsive headshot' src='images/headshots/nopic.jpg'>
+    </div>
+</div>
+<div class='row vertical-align'>
+    <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
+        <img class='img-circle img-responsive headshot' src='images/headshots/nopic.jpg'>
+    </div>
+    <div class='col-lg-8 col-xs-12'>
+        <p><h3>Brenda D.</h3></p>
+        <p><strong>Service Provided:</strong>Home Redesign</p>
+        <p>"Recently we had the pleasure of working with Debbie at Redesign Right. What she did to transform our two main living spaces is short of a miracle!  Although I did purchase some new decorative items to incorporate into the redesign, she was able to use a lot of things I already had which helped with our budget. I couldn’t be more thrilled with the results. Debbie made the whole process fun and exciting!  Would strongly recommend!!"</p>
+    </div>
+</div>
+<div class='row vertical-align'>
+    <div class='col-lg-8 col-xs-12'>
+        <p><h3>Joy L.</h3></p>
+        <p><strong>Service Provided:</strong> Home Redesign</p>
+        <p>"Debbie is wonderful!  She has a great eye and made us think about things and see things we would not have without her input.  She is talented and works with what you have. We love her ideas. She deals well with differences of opinion in spouses when it comes to choices and decorating ideas.  Debbie is patient, doesn't make you feel rushed and is very easy to work with; we would definitely recommend her!"</p>
+    </div>
+    <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
+        <img class='img-circle img-responsive headshot' src='images/headshots/nopic.jpg'>
+    </div>
+</div>
+<div class='row vertical-align'>
+    <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
         <img class='img-circle img-responsive headshot' src='images/headshots/KristenHenderson.jpg'>
     </div>
     <div class='col-lg-8 col-xs-12'>
