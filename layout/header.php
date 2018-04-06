@@ -83,8 +83,8 @@ if($_POST['mode'] == 'footer'){
         <script src="<?php echo $pathToRoot; ?>js/bootstrap.min.js"></script>
         <script src="<?php echo $pathToRoot; ?>js/jquery.lazyload.min.js"></script>
         <script src="<?php echo $pathToRoot; ?>js/menu-text.js"></script>
-        <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="<?php echo $pathToRoot; ?>css/style.css">
         <link rel="shortcut icon" href="<?php echo $pathToRoot; ?>images/favicon.ico">
         <script src='https://www.google.com/recaptcha/api.js'></script>
