@@ -190,7 +190,7 @@ if($_POST['mode'] == 'footer'){
                         <h2>Artfully enhance your home, with what you already own!</h2>
                       </div>
                     </div>
-                    <div class="row" id="contactInfo">
+                    <div class="row bottom-pad" id="contactInfo">
                         <div class="col-lg-4 col-xs-4 contactInfo shrink-text-sm">
                             <a href='tel:+1-610-955-8202'>610.955.8202</a>
                         </div>
