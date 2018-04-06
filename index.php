@@ -29,16 +29,16 @@ include 'layout/header.php';
         <a href="https://www.houzz.com/pro/debbiecorreale/redesign-right-llc" target="_blank"><img class="img-responsive image-center bottom-pad" src="https://st.hzcdn.com/static/badge_44_8@2x.png" height='80' width='80'></a>
     </div>
     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 bottom-pad">
-        <a href="https://www.houzz.com/pro/debbiecorreale/redesign-right-llc" target="_blank"><img class="img-responsive image-center bottom-pad" src="http://st.hzcdn.com/static/badge_41_8@2x.png" height='80' width='80'></a>
+        <a href="https://www.houzz.com/pro/debbiecorreale/redesign-right-llc" target="_blank"><img class="img-responsive image-center bottom-pad" src="https://st.hzcdn.com/static/badge_41_8@2x.png" height='80' width='80'></a>
     </div>
     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 bottom-pad">
-        <a href="https://www.houzz.com/pro/debbiecorreale/redesign-right-llc" target="_blank"><img class="img-responsive image-center bottom-pad" src="http://st.hzcdn.com/static/badge_22_8.png"></a>
+        <a href="https://www.houzz.com/pro/debbiecorreale/redesign-right-llc" target="_blank"><img class="img-responsive image-center bottom-pad" src="https://st.hzcdn.com/static/badge_22_8.png"></a>
     </div>
     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 bottom-pad">
-        <a href="https://www.houzz.com/pro/debbiecorreale/redesign-right-llc" target="_blank"><img class="img-responsive image-center bottom-pad" src="http://st.houzz.com/static/badge_16_8.png"></a>
+        <a href="https://www.houzz.com/pro/debbiecorreale/redesign-right-llc" target="_blank"><img class="img-responsive image-center bottom-pad" src="https://st.houzz.com/static/badge_16_8.png"></a>
     </div>
     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 bottom-pad">
-        <a href="https://www.houzz.com/pro/debbiecorreale/redesign-right-llc" target="_blank"><img class="img-responsive image-center" src="http://st.houzz.com/static/badge_13_8.png"></a>
+        <a href="https://www.houzz.com/pro/debbiecorreale/redesign-right-llc" target="_blank"><img class="img-responsive image-center" src="https://st.houzz.com/static/badge_13_8.png"></a>
     </div>
      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 bottom-pad">
         <a href="https://www.houzz.com/pro/debbiecorreale/redesign-right-llc" target="_blank"><img class="img-responsive image-center" src="https://st.hzcdn.com/static/badge_8_8.png"></a>
