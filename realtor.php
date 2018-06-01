@@ -20,6 +20,9 @@ include 'layout/header.php';
     </div>
     <div class='col-sm-5 col-xs-12'>
         <p>
+            <center><a href='contact-redesign-right-philadelphia-pa.htm?service=Staging&source=Realtor'><button class="btn btn-lg btn-red" type="button">Contact to Get Started</button></a></center>
+        </p>
+        <p>
             Let Redesign Right help you create first impressions that count! As almost 95% of home viewing is done on the internet, it is imperative that the home visually stand out. With such a competitive market, we specialize in staging homes that buyers WILL REMEMBER!
         </p>
         <p>
@@ -82,7 +85,7 @@ include 'layout/header.php';
 </div>
 <div class="row bottom-pad">
     <div class="col-xs-12">
-        <blockquote><p>If you are interested in the class or have questions <a href='contact-redesign-right-philadelphia-pa.htm'>click here</a> to get started or call us at <a href='tel:610-955-8202'>610.955.8202</a>.</p></blockquote>
+        <blockquote><p>If you are interested in staging services or have questions <a href='contact-redesign-right-philadelphia-pa.htm'>click here</a> to get started or call us at <a href='tel:610-955-8202'>610.955.8202</a>.</p></blockquote>
     </div>
 </div>
 <div class='row bottom-pad'>

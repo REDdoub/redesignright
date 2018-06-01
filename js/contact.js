@@ -14,3 +14,10 @@ $('.no-custom-drop').click(function(){
     $('.custom-form-group').addClass('hidden');
 });
 
+$(document).ready(autofill);
+
+function autofill(){
+    $("#source").val($('#source-value').val());
+    $("#service").val($('#service-value').val());
+}
+

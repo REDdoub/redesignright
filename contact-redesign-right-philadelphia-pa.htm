@@ -2,8 +2,11 @@
 $title = "Redesign Right - Contact Us";
 $pathToRoot = "";
 include 'layout/header.php';
-
+$source = ($_GET['source'] ?: '');
+$service = ($_GET['service'] ?: '');
 ?>
+<input type='hidden' id='source-value' value='<?php echo $source;?>'>
+<input type='hidden' id='service-value' value='<?php echo $service;?>'>
 <div class='row upper-pad vertical-align text-center'>
     <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
     <div class='col-lg-2 col-md-2 col-sm-2 col-xs-12'>
@@ -37,12 +40,13 @@ include 'layout/header.php';
             <label>
                 How did you hear about us:
             </label>
-            <select class="form-control" name="source">
+            <select class="form-control" name="source" id="source">
                 <option class='no-custom-drop' value="Facebook">Facebook</option>
                 <option class='no-custom-drop' value="Houzz">Houzz</option>
                 <option class='no-custom-drop' value="LinkedIn">LinkedIn</option>
                 <option class='custom-drop' value="Referral">Referral</option>
                 <option class='custom-drop' value="ProfessionalNetwork">Professional Network</option>
+                <option class='custom-drop' value="Realtor">Realtor</option>
                 <option class='custom-drop' value="Other">Other</option>
             </select>
         </div>
@@ -56,11 +60,12 @@ include 'layout/header.php';
             <label>
                 What services are you interested in:
             </label>
-            <select class="form-control" name="service">
+            <select class="form-control" name="service" id="service">
                 <option value="Sell Home">Want to sell a home</option>
                 <option value="Decorate Home">Looking to decorate my home</option>
                 <option value="Paint Color">Looking for paint color</option>
                 <option value="Career">Want a career in decorating and home staging</option>
+                <option value="Staging">Home Staging</option>
                 <option value="Other">Other</option>
             </select>
         </div>

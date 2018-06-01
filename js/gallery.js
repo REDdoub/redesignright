@@ -2,7 +2,12 @@
     //failure_limit : 100
 //});
 
-function loadMod($path){
-    $('#imageView').attr('src', $path);
+$(document).ready(function(){
+    $(".galleryImage").click(loadMod);
+});
+
+function loadMod(){
+    var $path = $(this).data('path');
+    $('#imageView').attr('src', "image/gallery/". $path);
     $('#largeImg').modal('show');
 }

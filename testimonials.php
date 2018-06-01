@@ -5,17 +5,37 @@
 ?>
 <div class='row vertical-align'>
     <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
+        <img class='img-circle img-responsive headshot' src='images/headshots/nopic.png'>
+    </div>
+    <div class='col-lg-8 col-xs-12'>
+        <p><h3>Jerry L.</h3></p>
+        <p><strong>Service Provided:</strong> Home Staging</p>
+        <p>"I used Debbie's services for staging my home for sale. She was incredible! Everyone who entered my home, especially those who had seen it before Debbie's work, loved it. She had so many great ideas that changed the look of my home. What was even better was that most of the ideas cost little to no money. Look her up for your decorating and staging projects you'll be pleased you did!"</p>
+    </div>
+</div>
+<div class='row vertical-align'>
+    <div class='col-lg-8 col-xs-12'>
+        <p><h3>Lee H.</h3></p>
+        <p><strong>Service Provided:</strong> Home Redesign</p>
+        <p>"We recently moved into a new house, and Debbie helped with paint selection and redesigning our living room, dining room, and family room. She rearranged furniture, hung artwork, staged accessories and gave suggestions on size and color of area rugs for two of the room. She was a pleasure to work with, and I would highly recommend her and her services. Thank you, Debbie!"</p>
+    </div>
+    <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
+        <img class='img-circle img-responsive headshot' src='images/headshots/nopic.png'>
+    </div>
+</div>
+<div class='row vertical-align'>
+    <div class='col-lg-4 col-md-4 hidden-sm hidden-xs'>
         <img class='img-circle img-responsive headshot' src='images/headshots/jeffb.jpg'>
     </div>
     <div class='col-lg-8 col-xs-12'>
-        <p><h3>Jeff Bollinger (Realtor)</h3></p>
-        <p><strong>Service Provided:</strong>Home Staging</p>
+        <p><h3>Jeff Bollinger - Realtor, Berkshire Hathaway Home Services, Fox & Roach Realtors</h3></p>
+        <p><strong>Service Provided:</strong> Home Staging</p>
         <p>"When I find an outstanding Home Stager, I stick with her! Debbie Correale is that person. The goal is to create not only a great First Impression but also a lasting impression that will make the Buyer feel that they have found their ideal home. I call it the "'emotional pull" that comes when everything just feels Right. From furniture arrangement to the right colors, to the Right accessories, Debbie does it to perfection."</p>
     </div>
 </div>
 <div class='row vertical-align'>
     <div class='col-lg-8 col-xs-12'>
-        <p><h3>Sabrine R.</h3></p>
+        <p><h3>Sabine R.</h3></p>
         <p><strong>Service Provided:</strong> Home Staging</p>
         <p>"Debbie is a powerhouse of talent.  We were amazed at how she knew exactly how to give our rooms that magical extra touch to make them pop for the photographer and our MLS listing.  She has boundless energy and a critical eye for detail.  I highly recommend her to anyone who wants to stand out from the rest in selling your home, or even if you are ready for an amazing new fresh look to your rooms.  You will be so glad that you chose her!"</p>
     </div>
@@ -29,7 +49,7 @@
     </div>
     <div class='col-lg-8 col-xs-12'>
         <p><h3>Brenda D.</h3></p>
-        <p><strong>Service Provided:</strong>Home Redesign</p>
+        <p><strong>Service Provided:</strong> Home Redesign</p>
         <p>"Recently we had the pleasure of working with Debbie at Redesign Right. What she did to transform our two main living spaces is short of a miracle!  Although I did purchase some new decorative items to incorporate into the redesign, she was able to use a lot of things I already had which helped with our budget. I couldn’t be more thrilled with the results. Debbie made the whole process fun and exciting!  Would strongly recommend!!"</p>
     </div>
 </div>
@@ -212,7 +232,7 @@
         <img class='img-circle img-responsive headshot' src='images/headshots/LynnRomolini.jpg'>
     </div>
     <div class='col-lg-8 col-xs-12'>
-        <p><h3>Lynn Romolini, Realtor, ABR, CNE, Berkshire Hathaway, Prudential, Fox & Roach</h3></p>
+        <p><h3>Lynn Romolini - Realtor, ABR, CNE, Berkshire Hathaway, Prudential, Fox & Roach</h3></p>
         <p><strong>Service Provided:</strong> Home Staging</p>
         <p>"Debbie has been a tremendous asset as a home stager for my clients. By utilizing the home owner’s furnishings, and then adding her honest, enthusiastic approach, sellers are very appreciative and welcoming of her skilled advice. Her keen eye to detail for staging a home to sell has made all the difference in a home presenting at its very best, and a positive result is getting it sold sooner! I would highly recommend Debbie’s services."</p>
     </div>

@@ -348,3 +348,7 @@ a, a:hover, a:active, a:active, a:focus{
 .img-logo{
     max-height: 106px;
 }
+
+.galleryImage{
+    cursor: pointer;
+}
