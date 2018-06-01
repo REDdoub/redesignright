@@ -352,3 +352,11 @@ a, a:hover, a:active, a:active, a:focus{
 .galleryImage{
     cursor: pointer;
 }
+
+.small-link{
+    color: gray;
+}
+
+.small-link:hover{
+    color: gray;
+}

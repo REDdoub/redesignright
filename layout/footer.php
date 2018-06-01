@@ -32,6 +32,7 @@
             <form method='post' action=''>
                 <input type="hidden" name="mode" value="footer">
                 <div class='input-group'><span class='input-group-addon'><span class='glyphicon glyphicon-envelope'></span></span><input type='text' class='form-control' placeholder='Enter Email Address' name='email'><span class='input-group-btn'><button class='btn btn-default'>Go!</button></span></div>
+                <a class='small-link' target='_blank' href='https://redesignright.us8.list-manage.com/unsubscribe?u=25e4e3d6346952b833afcdc65&id=d08b3e2e69'>Unsubscribe</a>
             </form>
 
     </div>
@@ -42,6 +43,7 @@
             <li><a href="<?php echo $pathToRoot;?>staging-portfolio.htm">GALLERY</a></li>
             <li><a href="<?php echo $pathToRoot;?>decorating-magazine.htm">PUBLICATIONS</a></li>
             <li><a href="<?php echo $pathToRoot;?>contact-redesign-right-philadelphia-pa.htm">CONTACT</a></li>
+            <li><a href="<?php echo $pathToRoot;?>privacy.php">PRIVACY POLICY</a></li>
         </ul>
     </div>
 </div>
@@ -53,6 +55,7 @@
             <li><a href="<?php echo $pathToRoot;?>staging-portfolio.htm">GALLERY</a></li>
             <li><a href="<?php echo $pathToRoot;?>decorating-magazine.htm">PUBLICATIONS</a></li>
             <li><a href="<?php echo $pathToRoot;?>contact-redesign-right-philadelphia-pa.htm">CONTACT</a></li>
+            <li><a href="<?php echo $pathToRoot;?>privacy.php">PRIVACY POLICY</a></li>
         </ul>
     </div>
     <div class='col-xs-12 text-center'>
@@ -60,6 +63,7 @@
             <form method='post' action=''>
                 <input type="hidden" name="mode" value="footer">
                 <div class='input-group'><span class='input-group-addon'><span class='glyphicon glyphicon-envelope'></span></span><input type='text' class='form-control' placeholder='Enter Email Address' name='email'><span class='input-group-btn'><button class='btn btn-default'>Go!</button></span></div>
+                <a class='small-link' target='_blank' href='https://redesignright.us8.list-manage.com/unsubscribe?u=25e4e3d6346952b833afcdc65&id=d08b3e2e69'>Unsubscribe</a>
             </form>
     </div>
     <div class='col-xs-12'>
