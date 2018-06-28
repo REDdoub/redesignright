@@ -89,7 +89,7 @@
     </div>
     <div class='col-lg-8 col-xs-12'>
         <p><h3>Chris Tomlinson</h3></p>
-        <p><strong>Service Provided:</strong>Home Redesign</p>
+        <p><strong>Service Provided:</strong> Home Redesign</p>
         <p>"Debbie spent an afternoon working her magic in our living room and the newly finished basement, artfully rearranging and placing our things in a way that created beautiful and livable spaces. The reveal was like we were on an HGTV show! It was that dramatic and exciting!!</p>
         <p>Pinterest ideas and design magazines are no substitute for a professional. If you need a redesign or just a refresh, do not think twice about calling Debbie. You will love her as a person just as much as you will marvel at her talent for making your living space something new and wonderful!!"</p>
     </div>
