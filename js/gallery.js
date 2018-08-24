@@ -3,11 +3,12 @@
 //});
 
 $(document).ready(function(){
-    $(".galleryImage").click(loadMod);
+    $(".galleryImage").on('click touchstart', loadMod);
 });
 
 function loadMod(){
-    var $path = $(this).data('path');
-    $('#imageView').attr('src', "image/gallery/". $path);
+    var path = $(this).data('path');
+    console.log(path);
+    $('#imageView').attr('src', "images/gallery/" + path);
     $('#largeImg').modal('show');
 }

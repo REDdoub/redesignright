@@ -6,7 +6,7 @@ include 'layout/header.php';
 $files = array_values(array_diff(scandir('images/gallery/'), array('.', '..')));
 $file_count = count($files);
 $perRow = floor(($file_count -1)/3); 
-$remain = ($file_count-1) % 3;
+$remain = ($file_count-1) % 3; 
 $rowOne = $file_count -1;
 if($remain == 1){
     $rowTwo = ($file_count - $perRow) - 2;
@@ -38,7 +38,7 @@ while($rowTwo > $rowThree){
     </div>
     <div class="col-lg-4 col-md-4 col-xs-12">
 <?php
-while($rowThree > 0){
+while($rowThree >= 0){
     echo "<img src='images/gallery/" . $files[$rowThree] . "' class='galleryImage lazy' data-path='" . $files[$rowThree] . "'>";
     $rowThree--;
 }
@@ -55,6 +55,6 @@ while($rowThree > 0){
     </div>
 </div>
 <?php
-echo '<script src="../js/gallery.js"></script>';
+echo '<script src="js/gallery.js"></script>';
 include 'layout/footer.php';
 
