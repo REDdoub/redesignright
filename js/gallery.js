@@ -3,7 +3,7 @@
 //});
 
 $(document).ready(function(){
-    $(".galleryImage").on('click touchstart', loadMod);
+    $(".galleryImage").on('click touch', loadMod);
 });
 
 function loadMod(){
