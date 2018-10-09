@@ -4,6 +4,7 @@ $title = "Gallery";
 include 'layout/header.php';
 
 $files = array_values(array_diff(scandir('images/gallery/'), array('.', '..')));
+$files = array_reverse($files);
 $file_count = count($files);
 $perRow = floor(($file_count -1)/3); 
 $remain = ($file_count-1) % 3; 
