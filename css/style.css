@@ -339,6 +339,7 @@ a, a:hover, a:active, a:active, a:focus{
     border-bottom: black;
     border-bottom-style: solid;
     border-bottom-width: 2px;
+    padding-bottom: 10px;
 }
 
 .highlight{

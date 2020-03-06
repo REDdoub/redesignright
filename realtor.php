@@ -26,7 +26,7 @@ include 'layout/header.php';
             Let Redesign Right help you create first impressions that count! As almost 95% of home viewing is done on the internet, it is imperative that the home visually stand out. With such a competitive market, we specialize in staging homes that buyers WILL REMEMBER!
         </p>
         <p>
-            We have been in the interior decorating, and home staging business for over 15 years and enjoy a proven track record of successes with many realtors from the Chester and Delaware counties.
+            We have been in the interior decorating, and home staging business for over 16 years and enjoy a proven track record of successes with many realtors from the Chester and Delaware counties.
         </p>
     </div>
 </div>

@@ -158,26 +158,17 @@ if($_POST['mode'] == 'footer'){
                                     <a href ='https://twitter.com/RedesignRight' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/twitter.png"></a>
                                 </div>
                                 <div class='col-lg-6 col-xs-6'>
-                                    <a href ='https://plus.google.com/115797647665719346090' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/gplus.png"></a>
+                                    <a href ='http://pinterest.com/redesignright/' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/pin.png"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-xs-3">
                             <div class='row'>
-                                <div class='col-lg-6 col-xs-6'>
-                                    <a href ='http://pinterest.com/redesignright/' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/pin.png"></a>
-                                </div>
                                 <div class='col-lg-6 col-xs-6'>
                                     <a href ='<?php echo $pathToRoot;?>videos.php'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/video.png"></a>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-xs-3">
-                            <div class='row'>
-                                <div class='col-lg-6 col-xs-6'>
+				<div class='col-lg-6 col-xs-6'>
                                     <a href ='http://www.linkedin.com/pub/debbie-correale/b/481/804' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/linkedin.png"></a>
-                                </div>
-                                <div class='col-lg-6 col-xs-6'>
                                 </div>
                             </div>
                         </div>

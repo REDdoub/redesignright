@@ -8,9 +8,6 @@
                 <a href ='https://twitter.com/RedesignRight' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/twitter.png"></a>
             </div>
             <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6'>
-                <a href ='https://plus.google.com/115797647665719346090' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/gplus.png"></a>
-            </div>
-            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6'>
                 <a href ='http://pinterest.com/redesignright/' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/pin.png"></a>
             </div>
             <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6'>
@@ -41,7 +38,6 @@
             <li><a href="<?php echo $pathToRoot;?>about-debbie-correale.htm">ABOUT</a></li>
             <li><a href="<?php echo $pathToRoot;?>testimonials.php">TESTIMONIALS</a></li>
             <li><a href="<?php echo $pathToRoot;?>staging-portfolio.htm">GALLERY</a></li>
-            <li><a href="<?php echo $pathToRoot;?>decorating-magazine.htm">PUBLICATIONS</a></li>
             <li><a href="<?php echo $pathToRoot;?>contact-redesign-right-philadelphia-pa.htm">CONTACT</a></li>
             <li><a href="<?php echo $pathToRoot;?>privacy.php">PRIVACY POLICY</a></li>
         </ul>
@@ -53,7 +49,6 @@
             <li><a href="<?php echo $pathToRoot;?>about-debbie-correale.htm">ABOUT</a></li>
             <li><a href="<?php echo $pathToRoot;?>testimonials.php">TESTIMONIALS</a></li>
             <li><a href="<?php echo $pathToRoot;?>staging-portfolio.htm">GALLERY</a></li>
-            <li><a href="<?php echo $pathToRoot;?>decorating-magazine.htm">PUBLICATIONS</a></li>
             <li><a href="<?php echo $pathToRoot;?>contact-redesign-right-philadelphia-pa.htm">CONTACT</a></li>
             <li><a href="<?php echo $pathToRoot;?>privacy.php">PRIVACY POLICY</a></li>
         </ul>
@@ -73,9 +68,6 @@
             </div>
             <div class='col-lg-3 col-md-4 col-sm-6 col-xs-4'>
                 <a href ='https://twitter.com/RedesignRight' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/twitter.png"></a>
-            </div>
-            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-4'>
-                <a href ='https://plus.google.com/115797647665719346090' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/gplus.png"></a>
             </div>
             <div class='col-lg-3 col-md-4 col-sm-6 col-xs-4'>
                 <a href ='http://pinterest.com/redesignright/' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/pin.png"></a>
