@@ -17,7 +17,7 @@
                 <a href ='http://www.linkedin.com/pub/debbie-correale/b/481/804' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/linkedin.png"></a>
             </div>
             <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6'>
-                <a href ='http://redesignright.com/wordpress/' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/wp.png"></a>
+                <a href ='https://redesignright.com/wordpress/' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/wp.png"></a>
             </div>
             <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6'>
                 <a href =' https://www.instagram.com/redesignright/' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/instagram.png"></a>

@@ -40,7 +40,7 @@ include 'layout/header.php';
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <div class="row bottom-pad text-center">
-            <h2><strong>Videos: </strong> <small>(Click image to browse)</small></h2>
+            <h2><strong>Video Directory: </strong> <small>(Click play to browse)</small></h2>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <a href="videos.php"><img src="images/video.png" class="img img-responsive img-center"></a>
             </div>

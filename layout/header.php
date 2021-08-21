@@ -30,15 +30,16 @@ if($_POST['mode'] == 'footer'){
         );
     }
      if ($response != null && $response->success) {
-        $message = "Name: " . $_POST['name'] . 
-                    "\r\nPhone: " . $_POST['phone'] . 
-                    "\r\nEmail:" . $_POST['email'] . 
-                    "\r\nSource:" . $_POST['source'] . 
-                    "\r\nCustom Source:" . (isset($_POST['custom']) ? $_POST['custom'] : "") . 
-                    "\r\nService:" . $_POST['service'] . 
+        $message = "Name: " . $_POST['name'] .
+                    "\r\nPhone: " . $_POST['phone'] .
+                    "\r\nEmail:" . $_POST['email'] .
+                    "\r\nSource:" . $_POST['source'] .
+                    "\r\nCustom Source:" . (isset($_POST['custom']) ? $_POST['custom'] : "") .
+                    "\r\nService:" . $_POST['service'] .
                     "\r\nMessage::" . $_POST['message'];
         $subject = "Website Form Submission";
         $to = "debbie+contactform@redesignright.com";
+        //$to = "carroll.johnt@gmail.com";
         $headers = "";
         $headers .= "Reply-To: debbie@redesignright.com \r\n";
         $headers .= "Return-Path: debbie@redesignright.com \r\n";
@@ -53,11 +54,11 @@ if($_POST['mode'] == 'footer'){
         if($mailResult){
             $modal = '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button><h4 class="modal-title" id="myModalLabel">Contact Request</h4></div><div class="modal-body">Thank you for your submission. We will be in touch soon!</div></div></div></div><script type="text/javascript">$(window).load(function(){$("#myModal").modal("show");});</script>';
         }else{
-            $modal = '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button><h4 class="modal-title" id="myModalLabel">Contact Request</h4></div><div class="modal-body">There was a problem with your submission! Please fill out all forms and try again. If you are still having problems feel free to call us at 610.955.8202.</div></div></div></div><script type="text/javascript">$(window).load(function(){$("#myModal").modal("show");});</script>';
+            $modal = '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button><h4 class="modal-title" id="myModalLabel">Contact Request</h4></div><div class="modal-body">There was a problem with your submission! Please fill out all forms and try again. If you are still having problems feel free to call us at 610.955.8202.' . print_r($mailResult, TRUE) . '</div></div></div></div><script type="text/javascript">$(window).load(function(){$("#myModal").modal("show");});</script>';
         }
-        
+
      }else{
-         $modal = '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button><h4 class="modal-title" id="myModalLabel">Contact Request</h4></div><div class="modal-body">There was a problem with your submission! Please fill out all forms and try again. If you are still having problems feel free to call us at 610.955.8202.</div></div></div></div><script type="text/javascript">$(window).load(function(){$("#myModal").modal("show");});</script>';
+         $modal = '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button><h4 class="modal-title" id="myModalLabel">Contact Request</h4></div><div class="modal-body">There was a problem with your submission! Please fill out all forms and try again. If you are still having problems feel free to call us at 610.955.8202. </div></div></div></div><script type="text/javascript">$(window).load(function(){$("#myModal").modal("show");});</script>';
      }
 }
 ?>
