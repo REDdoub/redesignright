@@ -1,6 +1,6 @@
 <?php
 
-$title = "Redesign Right - 5 Day Training ";
+$title = "Redesign Right - Home Staging for Realtors ";
 $pathToRoot = "";
 include 'layout/header.php';
 ?>
@@ -10,24 +10,22 @@ include 'layout/header.php';
         <h2>Do you dream of "bidding wars" on properties you are trying to sell?</h2>
     </div>
 </div>
-<div class='row bottom-pad vertical-align'>
-    <div class="col-sm-7 col-xs-12">
-        <div class="row bottom-pad">
-            <div class="col-xs-12 video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/CycimwK9huU?autoplay=0&rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-    <div class='col-sm-5 col-xs-12'>
+<div class='row bottom-pad'>
+    <div class='col-sm-12 col-xs-12'>
         <p>
             <center><a href='contact-redesign-right-philadelphia-pa.htm?service=Staging&source=Realtor'><button class="btn btn-lg btn-red" type="button">Contact to Get Started</button></a></center>
         </p>
-        <p>
-            Let Redesign Right help you create first impressions that count! As almost 95% of home viewing is done on the internet, it is imperative that the home visually stand out. With such a competitive market, we specialize in staging homes that buyers WILL REMEMBER!
-        </p>
-        <p>
-            We have been in the interior decorating, and home staging business for over 16 years and enjoy a proven track record of successes with many realtors from the Chester and Delaware counties.
-        </p>
+        <ul>
+        <li>
+            As almost 95% of home viewing is done on the internet, let Redesign Right help you create first impressions that count! In the real estate market, we specialize in staging homes that buyers WILL REMEMBER!
+        </li>
+        <li>
+            We have been in the interior decorating, and home staging business for over 20 years and enjoy a proven track record of success with many realtors from Chester and Delaware counties in Pennsylvania.
+        </li>
+        <li>
+          We will meet with your homeowner and generate an honest and thorough 'to-do' list. The list will include repairs, removal, and redesign for the homeowner to complete on their own. The consultation costs $225-350.
+        </li>
+      </ul>
     </div>
 </div>
 <div class='row bottom-pad'>
@@ -69,7 +67,7 @@ include 'layout/header.php';
     </div>
 </div>
 <div class='row bottom-pad'>
-    <div class='col-xs-12'>
+    <div class='col-xs-6 col-xs-offset-3'>
         <img class='img-responsive image-center' src='images/gift-cert.png'>
     </div>
 </div>
@@ -104,7 +102,7 @@ include 'layout/header.php';
 </div>
 <div class="row bottom-pad">
     <div class="col-lg-12 col-xs-12 disclaimer">
-        <p>We are currently serving the Philadelphia, Pennsylvania area including Chester, Delaware, Montgomery, Philadelphia, Lancaster and Lehigh counties, also select areas of Delaware and New Jersey.</p>
+        <p>Redesign Right is currently serving Chester and Delaware counties in Pennsylvania and select areas in Delaware.</p>
     </div>
 </div>
 <?php

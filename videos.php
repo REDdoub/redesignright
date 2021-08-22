@@ -9,7 +9,7 @@ include 'layout/header.php';
     </div>
 </div>
 <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+    <!--<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <div class="thumbnail">
             <a href='videos_training.php#video'><img src="images/videos/5daytrainingvid.jpg"></a>
             <div class="caption">
@@ -18,7 +18,7 @@ include 'layout/header.php';
                 <p><a href='videos_training.php#video'><button class='btn btn-red'><span class='glyphicon glyphicon-play'></span> Watch</button></a></p>
             </div>
         </div>
-    </div>
+    </div>-->
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <div class="thumbnail">
             <a href='videos_redesign.php#video'><img src="images/videos/int.jpg"></a>
@@ -42,4 +42,3 @@ include 'layout/header.php';
 </div>
 <?php
 include 'layout/footer.php';
-

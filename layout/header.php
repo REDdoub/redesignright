@@ -1,4 +1,5 @@
 <?php
+include $pathToRoot . ".env.php";
 include $pathToRoot . "classes/mailchimp.php";
 include $pathToRoot . "classes/recaptcha.php";
 $modal = "";
@@ -7,7 +8,7 @@ if($_POST['mode'] == 'footer'){
         $modal = '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button><h4 class="modal-title" id="myModalLabel">Sign Up Request</h4></div><div class="modal-body"><form method="post" action=""><table><tr><td>First Name:</td><td><input type="text" class="form-control" name="fname"></td></tr><tr><td>Last Name: </td><td><input type="text" name="lname" class="form-control"></td></tr></table><button class="btn btn-default">Submit</button><input type="hidden" name="email" value="' . $_POST['email'] . '"><input type="hidden" name="mode" value="footer"></form></div></div></div></div><script type="text/javascript">$(window).load(function(){$("#myModal").modal("show");});</script>';
     }
     if(isset($_POST['email']) && isset($_POST['lname']) && isset($_POST['fname'])){
-        $MailChimp = new MailChimp('ca264afb069101d37691072be81e4ebd-us8');
+        $MailChimp = new MailChimp($secrets['mailchimp_api']);
         $result = $MailChimp->call('lists/subscribe', array(
                         'id'                => 'd08b3e2e69',
                         'email'             => array('email'=>$_POST['email']),
@@ -114,10 +115,10 @@ if($_POST['mode'] == 'footer'){
               <div id="navbar" class="navbar-collapse collapse">
                 <div class="hidden-lg hidden-md hidden-sm col-xs-12" id='smallNavHolder'>
                     <ul id='smallNav' class='nav'>
-                        <li class="nav-header">Education Services</li>
+                        <!--<li class="nav-header">Education Services</li>
                         <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>redesign-staging-training-philadelphia.htm">5-Day Interior Redesign and Staging Program</a></li>
                         <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>interior-redesign-training-philadelphia.html">3-Day Interior Redesign Program</a></li>
-                        <hr />
+                        <hr />-->
                         <li class="nav-header">Design Services</li>
                         <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>interior-redesign-west-chester-pa.htm">Home Redesign</a></li>
                         <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>home-staging-pa.htm">Home Staging</a></li>
@@ -166,7 +167,7 @@ if($_POST['mode'] == 'footer'){
                         <div class="col-lg-3 col-xs-3">
                             <div class='row'>
                                 <div class='col-lg-6 col-xs-6'>
-                                    <a href ='<?php echo $pathToRoot;?>videos.php'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/video.png"></a>
+                                    <a href ='https://www.houzz.com/pro/debbiecorreale/__public'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/houzz.png"></a>
                                 </div>
 				<div class='col-lg-6 col-xs-6'>
                                     <a href ='http://www.linkedin.com/pub/debbie-correale/b/481/804' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/linkedin.png"></a>
@@ -187,7 +188,7 @@ if($_POST['mode'] == 'footer'){
                             <a href='tel:+1-610-955-8202'>610.955.8202</a>
                         </div>
                          <div class="col-lg-4 col-xs-4 contactInfo">
-                            <a href ='http://www.houzz.com/pro/debbiecorreale/redesign-right-llc' target='_blank'><img class="img-responsive logo" src="<?php echo $pathToRoot; ?>images/houzz.png"></a>
+                           <!-- <a href ='http://www.houzz.com/pro/debbiecorreale/redesign-right-llc' target='_blank'><img class="img-responsive logo" src="<?php echo $pathToRoot; ?>images/houzz.png"></a>-->
                         </div>
                         <div class="hidden-lg hidden-md col-xs-4 contactInfo shrink-text-sm text-wrap">
                             <a onclick="window.location='mailto:debbie@redesignright.com'; return false;"  href='#'>debbie@redesignright.com</a>
@@ -214,7 +215,7 @@ if($_POST['mode'] == 'footer'){
                             <a onclick="window.location='mailto:debbie@redesignright.com'; return false;"  href='#'>debbie@redesignright.com</a>
                         </div>
                         <div class="col-lg-4 col-xs-12 contactInfo">
-                            <a href ='http://www.houzz.com/pro/debbiecorreale/redesign-right-llc' target='_blank'><img class="img-responsive logo" src="<?php echo $pathToRoot; ?>images/houzz.png"></a>
+                           <!-- <a href ='http://www.houzz.com/pro/debbiecorreale/redesign-right-llc' target='_blank'><img class="img-responsive logo" src="<?php echo $pathToRoot; ?>images/houzz.png"></a>-->
                         </div>
                     </div>
                 </div>
@@ -228,7 +229,7 @@ if($_POST['mode'] == 'footer'){
                   <div id="navbar" class="navbar-collapse collapse">
                     <div class="col-lg-12 hidden-xs mainNav">
                       <ul class="nav nav-pills nav-justified" id="bigNav">
-                        <li role="presentation" class="dropdown">
+                        <!--<li role="presentation" class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo $pathToRoot; ?>services.php#education" role="button" aria-expanded="false">
                                 Education Services <span class="caret"></span>
                             </a>
@@ -236,7 +237,7 @@ if($_POST['mode'] == 'footer'){
                                 <li role="presentation"><a href="<?php echo $pathToRoot; ?>redesign-staging-training-philadelphia.htm">5-Day Interior Redesign and Staging Program</a></li>
                                 <li role="presentation"><a href="<?php echo $pathToRoot; ?>interior-redesign-training-philadelphia.html">3-Day Interior Redesign Program</a></li>
                             </ul>
-                        </li>
+                        </li>-->
                         <li role="presentation" class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo $pathToRoot; ?>services.php#design" role="button" aria-expanded="false">
                                 Design Services <span class="caret"></span>
@@ -256,10 +257,10 @@ if($_POST['mode'] == 'footer'){
                     </div>
                     <div class="hidden-lg hidden-md hidden-sm col-xs-12" id='smallNavHolder'>
                         <ul id='smallNav' class='nav'>
-                            <li class="nav-header">Education Services</li>
+                            <!--<li class="nav-header">Education Services</li>
                             <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>redesign-staging-training-philadelphia.htm">5-Day Interior Redesign and Staging Program</a></li>
                             <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>interior-redesign-training-philadelphia.html">3-Day Interior Redesign Program</a></li>
-                            <hr />
+                            <hr />-->
                             <li class="nav-header">Design Services</li>
                             <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>interior-redesign-west-chester-pa.htm">Home Redesign</a></li>
                             <li role="presentation" class='small-item'><a href="<?php echo $pathToRoot; ?>home-staging-pa.htm">Home Staging</a></li>

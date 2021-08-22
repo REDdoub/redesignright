@@ -1,3 +1,4 @@
 /nbproject/private/
 /wordpress/
 /.htaccess
+.env.php
