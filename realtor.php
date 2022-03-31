@@ -7,7 +7,7 @@ include 'layout/header.php';
 <div class='row bottom-pad'>
     <div class='col-xs-12 text-center'>
         <h1>Would you like to sell your listings quicker?</h1>
-        <h2>Do you dream of "bidding wars" on properties you are trying to sell?</h2>
+   
     </div>
 </div>
 <div class='row bottom-pad'>
@@ -26,37 +26,6 @@ include 'layout/header.php';
           We will meet with your homeowner and generate an honest and thorough 'to-do' list. The list will include repairs, removal, and redesign for the homeowner to complete on their own. The consultation costs $225-350.
         </li>
       </ul>
-    </div>
-</div>
-<div class='row bottom-pad'>
-    <div class='col-xs-12'>
-        <h1>We offer two Staging Options:</h1>
-    </div>
-</div>
-<div class='row bottom-pad'>
-    <div class='col-xs-12'>
-        <p>
-            <strong>1. DIY Option</strong>
-        </p>
-         <p>
-             We will meet with your homeowner and generate an honest and thorough 'to do' list. (Includes repairs, removal and redesign for the homeowner to complete on their own.) This option is for the homeowner who prefers to do it themselves after Redesign Right provides the direction.
-        </p>
-         <p>
-             This option is <strong>the MOST popular Realtor choice,</strong> and we offer you a special flat rate fee of only $200-300 per consult.
-        </p>
-    </div>
-</div>
-<div class='row bottom-pad'>
-    <div class='col-xs-12'>
-        <p>
-            <strong>2. Physical One-Day Staging option:</strong>
-        </p>
-         <p>
-             This staging option is an affordable one-day total transformation package, where the homeowner leaves the house and a team of Redesign Right certified stagers would physically create a 'model home' in one day using what is already there. This option includes redesigning furniture, art, and accessories. After the redesigners complete the one-day staging, the home is ready for professional photographing and sale.
-        </p>
-         <p>
-             This option appeals to the homeowner who does not have the time or is unable to stage their home on their own. Pricing of this service is by room and determined at the date of consultation with the homeowner. Sometimes additional items must be purchased to complete the staging process effectively.
-        </p>
     </div>
 </div>
 <div class='row bottom-pad'>
