@@ -11,7 +11,7 @@
                 <a href ='http://pinterest.com/redesignright/' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/pin.png"></a>
             </div>
             <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6'>
-                <a href ='https://www.houzz.com/pro/debbiecorreale/__public'><img class="img-responsive" width='38' height='38' src="<?php echo $pathToRoot; ?>images/small/houzz.png"></a>
+                <a href ='https://www.houzz.com/pro/debbiecorreale/__public' target='_blank'><img class="img-responsive" width='38' height='38' src="<?php echo $pathToRoot; ?>images/small/houzz.png"></a>
             </div>
             <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6'>
                 <a href ='http://www.linkedin.com/pub/debbie-correale/b/481/804' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/linkedin.png"></a>
@@ -73,7 +73,7 @@
                 <a href ='http://pinterest.com/redesignright/' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/pin.png"></a>
             </div>
             <div class='col-lg-3 col-md-4 col-sm-6 col-xs-4'>
-                <a href ='https://www.houzz.com/pro/debbiecorreale/__public'><img width='38' height='38' class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/houzz.png"></a>
+                <a href ='https://www.houzz.com/pro/debbiecorreale/__public' target='_blank'><img width='38' height='38' class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/houzz.png"></a>
             </div>
             <div class='col-lg-3 col-md-4 col-sm-6 col-xs-4'>
                 <a href ='http://www.linkedin.com/pub/debbie-correale/b/481/804' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/small/linkedin.png"></a>
