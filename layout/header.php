@@ -167,7 +167,7 @@ if($_POST['mode'] == 'footer'){
                         <div class="col-lg-3 col-xs-3">
                             <div class='row'>
                                 <div class='col-lg-6 col-xs-6'>
-                                    <a href ='https://www.houzz.com/pro/debbiecorreale/__public'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/houzz.png"></a>
+                                    <a href ='https://www.houzz.com/pro/debbiecorreale/__public' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/houzz.png"></a>
                                 </div>
 				<div class='col-lg-6 col-xs-6'>
                                     <a href ='http://www.linkedin.com/pub/debbie-correale/b/481/804' target='_blank'><img class="img-responsive" src="<?php echo $pathToRoot; ?>images/linkedin.png"></a>
